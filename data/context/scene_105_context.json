@@ -1,0 +1,65 @@
+{
+  "audio": {
+    "file": "scene_105.wav",
+    "duration": 22.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "keyboard_typing",
+      "start": 3.84,
+      "end": 5.76,
+      "duration": 1.92,
+      "confidence": 0.916,
+      "source_frames": [
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 8,
+      "start": 3.84,
+      "end": 4.8,
+      "labels": [
+        {
+          "label": "keyboard_typing",
+          "confidence": 0.666
+        }
+      ]
+    },
+    {
+      "frame_index": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "labels": [
+        {
+          "label": "keyboard_typing",
+          "confidence": 0.744
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "labels": [
+        {
+          "label": "keyboard_typing",
+          "confidence": 0.916
+        }
+      ]
+    }
+  ]
+}

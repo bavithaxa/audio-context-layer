@@ -1,0 +1,171 @@
+{
+  "audio": {
+    "file": "scene_146.wav",
+    "duration": 22.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "clock_tick",
+      "start": 1.92,
+      "end": 5.76,
+      "duration": 3.84,
+      "confidence": 0.868,
+      "source_frames": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "footsteps",
+      "start": 5.76,
+      "end": 7.2,
+      "duration": 1.44,
+      "confidence": 0.849,
+      "source_frames": [
+        12,
+        13
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "door_wood_knock",
+      "start": 8.64,
+      "end": 9.6,
+      "duration": 0.96,
+      "confidence": 0.392,
+      "source_frames": [
+        18
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "label": "door_wood_knock",
+      "start": 12.0,
+      "end": 13.92,
+      "duration": 1.92,
+      "confidence": 0.978,
+      "source_frames": [
+        25,
+        26,
+        27
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 4,
+      "start": 1.92,
+      "end": 2.88,
+      "labels": [
+        {
+          "label": "clock_tick",
+          "confidence": 0.864
+        }
+      ]
+    },
+    {
+      "frame_index": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "labels": [
+        {
+          "label": "clock_tick",
+          "confidence": 0.862
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "labels": [
+        {
+          "label": "clock_tick",
+          "confidence": 0.868
+        }
+      ]
+    },
+    {
+      "frame_index": 12,
+      "start": 5.76,
+      "end": 6.72,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.465
+        }
+      ]
+    },
+    {
+      "frame_index": 13,
+      "start": 6.24,
+      "end": 7.2,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.849
+        }
+      ]
+    },
+    {
+      "frame_index": 18,
+      "start": 8.64,
+      "end": 9.6,
+      "labels": [
+        {
+          "label": "door_wood_knock",
+          "confidence": 0.392
+        }
+      ]
+    },
+    {
+      "frame_index": 25,
+      "start": 12.0,
+      "end": 12.96,
+      "labels": [
+        {
+          "label": "door_wood_knock",
+          "confidence": 0.978
+        }
+      ]
+    },
+    {
+      "frame_index": 26,
+      "start": 12.48,
+      "end": 13.44,
+      "labels": [
+        {
+          "label": "door_wood_knock",
+          "confidence": 0.891
+        }
+      ]
+    },
+    {
+      "frame_index": 27,
+      "start": 12.96,
+      "end": 13.92,
+      "labels": [
+        {
+          "label": "door_wood_knock",
+          "confidence": 0.908
+        }
+      ]
+    }
+  ]
+}

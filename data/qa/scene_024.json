@@ -1,0 +1,105 @@
+[
+  {
+    "qa_id": "scene_024_q01",
+    "scene_id": "scene_024",
+    "split": "train",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "footsteps, rain, thunderstorm, water drops, wind",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6",
+      "e7"
+    ]
+  },
+  {
+    "qa_id": "scene_024_q02",
+    "scene_id": "scene_024",
+    "split": "train",
+    "question_type": "counting",
+    "question": "How many separate footsteps events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_024_q03",
+    "scene_id": "scene_024",
+    "split": "train",
+    "question_type": "temporal",
+    "question": "Which occurred first, the footsteps or the water drops?",
+    "answer": "footsteps",
+    "evidence_event_ids": [
+      "e5",
+      "e7"
+    ]
+  },
+  {
+    "qa_id": "scene_024_q04",
+    "scene_id": "scene_024",
+    "split": "train",
+    "question_type": "yes_no",
+    "question": "Is there a rain sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "e2"
+    ]
+  },
+  {
+    "qa_id": "scene_024_q05",
+    "scene_id": "scene_024",
+    "split": "train",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the thunderstorm or the rain?",
+    "answer": "thunderstorm",
+    "evidence_event_ids": [
+      "e3",
+      "e2"
+    ]
+  },
+  {
+    "qa_id": "scene_024_q06",
+    "scene_id": "scene_024",
+    "split": "train",
+    "question_type": "duration",
+    "question": "Approximately how long does the rain event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "e2"
+    ]
+  },
+  {
+    "qa_id": "scene_024_q07",
+    "scene_id": "scene_024",
+    "split": "train",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A rainy stormy environment is suggested. Rain and wind provide evidence of outdoor weather, while thunderstorm sounds are consistent with stormy conditions.",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6",
+      "e7"
+    ]
+  },
+  {
+    "qa_id": "scene_024_q08",
+    "scene_id": "scene_024",
+    "split": "train",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "water drops",
+    "evidence_event_ids": [
+      "e7"
+    ]
+  }
+]

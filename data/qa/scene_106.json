@@ -1,0 +1,101 @@
+[
+  {
+    "qa_id": "scene_106_q01",
+    "scene_id": "scene_106",
+    "split": "validation",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "crow, hen, rooster, wind",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_106_q02",
+    "scene_id": "scene_106",
+    "split": "validation",
+    "question_type": "counting",
+    "question": "How many separate hen events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "e4",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_106_q03",
+    "scene_id": "scene_106",
+    "split": "validation",
+    "question_type": "temporal",
+    "question": "Which occurred first, the hen or the rooster?",
+    "answer": "hen",
+    "evidence_event_ids": [
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_106_q04",
+    "scene_id": "scene_106",
+    "split": "validation",
+    "question_type": "yes_no",
+    "question": "Is there a chirping birds sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": []
+  },
+  {
+    "qa_id": "scene_106_q05",
+    "scene_id": "scene_106",
+    "split": "validation",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the crow or the rooster?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "e2",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_106_q06",
+    "scene_id": "scene_106",
+    "split": "validation",
+    "question_type": "duration",
+    "question": "Approximately how long does the crow event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "e3"
+    ]
+  },
+  {
+    "qa_id": "scene_106_q07",
+    "scene_id": "scene_106",
+    "split": "validation",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A farm rural environment is suggested. Animal sounds such as cows, sheep, hens and roosters provide evidence consistent with a farm or rural environment.",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_106_q08",
+    "scene_id": "scene_106",
+    "split": "validation",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "hen",
+    "evidence_event_ids": [
+      "e6"
+    ]
+  }
+]

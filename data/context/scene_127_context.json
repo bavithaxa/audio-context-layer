@@ -1,0 +1,227 @@
+{
+  "audio": {
+    "file": "scene_127.wav",
+    "duration": 22.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "rain",
+      "start": 5.76,
+      "end": 10.08,
+      "duration": 4.32,
+      "confidence": 0.784,
+      "source_frames": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "water_drops",
+      "start": 5.76,
+      "end": 10.08,
+      "duration": 4.32,
+      "confidence": 0.831,
+      "source_frames": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "thunderstorm",
+      "start": 15.84,
+      "end": 19.2,
+      "duration": 3.36,
+      "confidence": 0.796,
+      "source_frames": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "label": "wind",
+      "start": 16.8,
+      "end": 17.76,
+      "duration": 0.96,
+      "confidence": 0.446,
+      "source_frames": [
+        35
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 12,
+      "start": 5.76,
+      "end": 6.72,
+      "labels": [
+        {
+          "label": "rain",
+          "confidence": 0.377
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.377
+        }
+      ]
+    },
+    {
+      "frame_index": 13,
+      "start": 6.24,
+      "end": 7.2,
+      "labels": [
+        {
+          "label": "rain",
+          "confidence": 0.459
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.459
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "start": 7.2,
+      "end": 8.16,
+      "labels": [
+        {
+          "label": "water_drops",
+          "confidence": 0.367
+        }
+      ]
+    },
+    {
+      "frame_index": 16,
+      "start": 7.68,
+      "end": 8.64,
+      "labels": [
+        {
+          "label": "rain",
+          "confidence": 0.784
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.831
+        }
+      ]
+    },
+    {
+      "frame_index": 17,
+      "start": 8.16,
+      "end": 9.12,
+      "labels": [
+        {
+          "label": "rain",
+          "confidence": 0.621
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.567
+        }
+      ]
+    },
+    {
+      "frame_index": 18,
+      "start": 8.64,
+      "end": 9.6,
+      "labels": [
+        {
+          "label": "rain",
+          "confidence": 0.636
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.487
+        }
+      ]
+    },
+    {
+      "frame_index": 19,
+      "start": 9.12,
+      "end": 10.08,
+      "labels": [
+        {
+          "label": "rain",
+          "confidence": 0.318
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.334
+        }
+      ]
+    },
+    {
+      "frame_index": 33,
+      "start": 15.84,
+      "end": 16.8,
+      "labels": [
+        {
+          "label": "thunderstorm",
+          "confidence": 0.796
+        }
+      ]
+    },
+    {
+      "frame_index": 35,
+      "start": 16.8,
+      "end": 17.76,
+      "labels": [
+        {
+          "label": "wind",
+          "confidence": 0.446
+        }
+      ]
+    },
+    {
+      "frame_index": 37,
+      "start": 17.76,
+      "end": 18.72,
+      "labels": [
+        {
+          "label": "thunderstorm",
+          "confidence": 0.333
+        }
+      ]
+    },
+    {
+      "frame_index": 38,
+      "start": 18.24,
+      "end": 19.2,
+      "labels": [
+        {
+          "label": "thunderstorm",
+          "confidence": 0.657
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "audio": {
+    "path": "data/scenes/scene_003.wav",
+    "duration": 25.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "frame_duration_seconds": 0.96,
+    "frame_hop_seconds": 0.48,
+    "min_event_duration": 0.4,
+    "max_gap": 0.75
+  },
+  "events": [
+    {
+      "label": "thunderstorm",
+      "start": 1.92,
+      "end": 2.88,
+      "duration": 0.96,
+      "confidence": 0.3597,
+      "source_frames": [
+        4
+      ],
+      "event_id": "event_001"
+    },
+    {
+      "label": "sheep",
+      "start": 3.84,
+      "end": 8.64,
+      "duration": 4.8,
+      "confidence": 0.9906,
+      "source_frames": [
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "event_id": "event_002"
+    },
+    {
+      "label": "crow",
+      "start": 5.28,
+      "end": 6.24,
+      "duration": 0.96,
+      "confidence": 0.3306,
+      "source_frames": [
+        11
+      ],
+      "event_id": "event_003"
+    },
+    {
+      "label": "chirping_birds",
+      "start": 8.16,
+      "end": 9.12,
+      "duration": 0.96,
+      "confidence": 0.7241,
+      "source_frames": [
+        17
+      ],
+      "event_id": "event_004"
+    },
+    {
+      "label": "crow",
+      "start": 8.16,
+      "end": 9.6,
+      "duration": 1.44,
+      "confidence": 0.8988,
+      "source_frames": [
+        17,
+        18
+      ],
+      "event_id": "event_005"
+    },
+    {
+      "label": "sheep",
+      "start": 10.08,
+      "end": 15.84,
+      "duration": 5.76,
+      "confidence": 0.9935,
+      "source_frames": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30,
+        31
+      ],
+      "event_id": "event_006"
+    },
+    {
+      "label": "chirping_birds",
+      "start": 12.48,
+      "end": 13.44,
+      "duration": 0.96,
+      "confidence": 0.3889,
+      "source_frames": [
+        26
+      ],
+      "event_id": "event_007"
+    },
+    {
+      "label": "hen",
+      "start": 12.48,
+      "end": 13.44,
+      "duration": 0.96,
+      "confidence": 0.3885,
+      "source_frames": [
+        26
+      ],
+      "event_id": "event_008"
+    },
+    {
+      "label": "rooster",
+      "start": 12.48,
+      "end": 13.44,
+      "duration": 0.96,
+      "confidence": 0.3885,
+      "source_frames": [
+        26
+      ],
+      "event_id": "event_009"
+    },
+    {
+      "label": "engine",
+      "start": 18.72,
+      "end": 20.16,
+      "duration": 1.44,
+      "confidence": 0.6817,
+      "source_frames": [
+        39,
+        40
+      ],
+      "event_id": "event_010"
+    },
+    {
+      "label": "cow",
+      "start": 19.68,
+      "end": 21.12,
+      "duration": 1.44,
+      "confidence": 0.9355,
+      "source_frames": [
+        41,
+        42
+      ],
+      "event_id": "event_011"
+    }
+  ],
+  "frames": [
+    {
+      "frame_id": 0,
+      "start": 0.0,
+      "end": 0.96,
+      "predictions": []
+    },
+    {
+      "frame_id": 1,
+      "start": 0.48,
+      "end": 1.44,
+      "predictions": []
+    },
+    {
+      "frame_id": 2,
+      "start": 0.96,
+      "end": 1.92,
+      "predictions": []
+    },
+    {
+      "frame_id": 3,
+      "start": 1.44,
+      "end": 2.4,
+      "predictions": []
+    },
+    {
+      "frame_id": 4,
+      "start": 1.92,
+      "end": 2.88,
+      "predictions": [
+        {
+          "label": "thunderstorm",
+          "confidence": 0.3597
+        }
+      ]
+    },
+    {
+      "frame_id": 5,
+      "start": 2.4,
+      "end": 3.36,
+      "predictions": []
+    },
+    {
+      "frame_id": 6,
+      "start": 2.88,
+      "end": 3.84,
+      "predictions": []
+    },
+    {
+      "frame_id": 7,
+      "start": 3.36,
+      "end": 4.32,
+      "predictions": []
+    },
+    {
+      "frame_id": 8,
+      "start": 3.84,
+      "end": 4.8,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.7206
+        }
+      ]
+    },
+    {
+      "frame_id": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.8868
+        }
+      ]
+    },
+    {
+      "frame_id": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "predictions": []
+    },
+    {
+      "frame_id": 11,
+      "start": 5.28,
+      "end": 6.24,
+      "predictions": [
+        {
+          "label": "crow",
+          "confidence": 0.3306
+        }
+      ]
+    },
+    {
+      "frame_id": 12,
+      "start": 5.76,
+      "end": 6.72,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.7777
+        }
+      ]
+    },
+    {
+      "frame_id": 13,
+      "start": 6.24,
+      "end": 7.2,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.5137
+        }
+      ]
+    },
+    {
+      "frame_id": 14,
+      "start": 6.72,
+      "end": 7.68,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.9906
+        }
+      ]
+    },
+    {
+      "frame_id": 15,
+      "start": 7.2,
+      "end": 8.16,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.9024
+        }
+      ]
+    },
+    {
+      "frame_id": 16,
+      "start": 7.68,
+      "end": 8.64,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.42
+        }
+      ]
+    },
+    {
+      "frame_id": 17,
+      "start": 8.16,
+      "end": 9.12,
+      "predictions": [
+        {
+          "label": "crow",
+          "confidence": 0.8988
+        },
+        {
+          "label": "chirping_birds",
+          "confidence": 0.7241
+        }
+      ]
+    },
+    {
+      "frame_id": 18,
+      "start": 8.64,
+      "end": 9.6,
+      "predictions": [
+        {
+          "label": "crow",
+          "confidence": 0.5087
+        }
+      ]
+    },
+    {
+      "frame_id": 19,
+      "start": 9.12,
+      "end": 10.08,
+      "predictions": []
+    },
+    {
+      "frame_id": 20,
+      "start": 9.6,
+      "end": 10.56,
+      "predictions": []
+    },
+    {
+      "frame_id": 21,
+      "start": 10.08,
+      "end": 11.04,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.9776
+        }
+      ]
+    },
+    {
+      "frame_id": 22,
+      "start": 10.56,
+      "end": 11.52,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.942
+        }
+      ]
+    },
+    {
+      "frame_id": 23,
+      "start": 11.04,
+      "end": 12.0,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.91
+        }
+      ]
+    },
+    {
+      "frame_id": 24,
+      "start": 11.52,
+      "end": 12.48,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.9812
+        }
+      ]
+    },
+    {
+      "frame_id": 25,
+      "start": 12.0,
+      "end": 12.96,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.7887
+        }
+      ]
+    },
+    {
+      "frame_id": 26,
+      "start": 12.48,
+      "end": 13.44,
+      "predictions": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.3889
+        },
+        {
+          "label": "hen",
+          "confidence": 0.3885
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.3885
+        }
+      ]
+    },
+    {
+      "frame_id": 27,
+      "start": 12.96,
+      "end": 13.92,
+      "predictions": []
+    },
+    {
+      "frame_id": 28,
+      "start": 13.44,
+      "end": 14.4,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.8767
+        }
+      ]
+    },
+    {
+      "frame_id": 29,
+      "start": 13.92,
+      "end": 14.88,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.9678
+        }
+      ]
+    },
+    {
+      "frame_id": 30,
+      "start": 14.4,
+      "end": 15.36,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.7166
+        }
+      ]
+    },
+    {
+      "frame_id": 31,
+      "start": 14.88,
+      "end": 15.84,
+      "predictions": [
+        {
+          "label": "sheep",
+          "confidence": 0.9935
+        }
+      ]
+    },
+    {
+      "frame_id": 32,
+      "start": 15.36,
+      "end": 16.32,
+      "predictions": []
+    },
+    {
+      "frame_id": 33,
+      "start": 15.84,
+      "end": 16.8,
+      "predictions": []
+    },
+    {
+      "frame_id": 34,
+      "start": 16.32,
+      "end": 17.28,
+      "predictions": []
+    },
+    {
+      "frame_id": 35,
+      "start": 16.8,
+      "end": 17.76,
+      "predictions": []
+    },
+    {
+      "frame_id": 36,
+      "start": 17.28,
+      "end": 18.24,
+      "predictions": []
+    },
+    {
+      "frame_id": 37,
+      "start": 17.76,
+      "end": 18.72,
+      "predictions": []
+    },
+    {
+      "frame_id": 38,
+      "start": 18.24,
+      "end": 19.2,
+      "predictions": []
+    },
+    {
+      "frame_id": 39,
+      "start": 18.72,
+      "end": 19.68,
+      "predictions": [
+        {
+          "label": "engine",
+          "confidence": 0.3911
+        }
+      ]
+    },
+    {
+      "frame_id": 40,
+      "start": 19.2,
+      "end": 20.16,
+      "predictions": [
+        {
+          "label": "engine",
+          "confidence": 0.6817
+        }
+      ]
+    },
+    {
+      "frame_id": 41,
+      "start": 19.68,
+      "end": 20.64,
+      "predictions": [
+        {
+          "label": "cow",
+          "confidence": 0.9355
+        }
+      ]
+    },
+    {
+      "frame_id": 42,
+      "start": 20.16,
+      "end": 21.12,
+      "predictions": [
+        {
+          "label": "cow",
+          "confidence": 0.7569
+        }
+      ]
+    },
+    {
+      "frame_id": 43,
+      "start": 20.64,
+      "end": 21.6,
+      "predictions": []
+    },
+    {
+      "frame_id": 44,
+      "start": 21.12,
+      "end": 22.08,
+      "predictions": []
+    },
+    {
+      "frame_id": 45,
+      "start": 21.6,
+      "end": 22.56,
+      "predictions": []
+    },
+    {
+      "frame_id": 46,
+      "start": 22.08,
+      "end": 23.04,
+      "predictions": []
+    },
+    {
+      "frame_id": 47,
+      "start": 22.56,
+      "end": 23.52,
+      "predictions": []
+    },
+    {
+      "frame_id": 48,
+      "start": 23.04,
+      "end": 24.0,
+      "predictions": []
+    },
+    {
+      "frame_id": 49,
+      "start": 23.52,
+      "end": 24.48,
+      "predictions": []
+    },
+    {
+      "frame_id": 50,
+      "start": 24.0,
+      "end": 24.96,
+      "predictions": []
+    },
+    {
+      "frame_id": 51,
+      "start": 24.48,
+      "end": 25.0,
+      "predictions": []
+    }
+  ]
+}

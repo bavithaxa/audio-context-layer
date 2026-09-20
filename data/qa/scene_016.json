@@ -1,0 +1,103 @@
+[
+  {
+    "qa_id": "scene_016_q01",
+    "scene_id": "scene_016",
+    "split": "train",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "chirping birds, crow, dog, footsteps, wind",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_016_q02",
+    "scene_id": "scene_016",
+    "split": "train",
+    "question_type": "counting",
+    "question": "How many separate crow events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "e3",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_016_q03",
+    "scene_id": "scene_016",
+    "split": "train",
+    "question_type": "temporal",
+    "question": "Which occurred first, the wind or the crow?",
+    "answer": "wind",
+    "evidence_event_ids": [
+      "e2",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_016_q04",
+    "scene_id": "scene_016",
+    "split": "train",
+    "question_type": "yes_no",
+    "question": "Is there a dog sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_016_q05",
+    "scene_id": "scene_016",
+    "split": "train",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the footsteps or the dog?",
+    "answer": "footsteps",
+    "evidence_event_ids": [
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_016_q06",
+    "scene_id": "scene_016",
+    "split": "train",
+    "question_type": "duration",
+    "question": "Approximately how long does the footsteps event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "e4"
+    ]
+  },
+  {
+    "qa_id": "scene_016_q07",
+    "scene_id": "scene_016",
+    "split": "train",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An outdoor residential environment is suggested. Birds and wind provide evidence consistent with an outdoor environment. Dogs or footsteps can provide additional evidence of a residential outdoor setting.",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_016_q08",
+    "scene_id": "scene_016",
+    "split": "train",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "crow",
+    "evidence_event_ids": [
+      "e6"
+    ]
+  }
+]

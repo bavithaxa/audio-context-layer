@@ -1,0 +1,447 @@
+{
+  "audio": {
+    "file": "scene_134.wav",
+    "duration": 30.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "engine",
+      "start": 2.4,
+      "end": 8.16,
+      "duration": 5.76,
+      "confidence": 0.575,
+      "source_frames": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "siren",
+      "start": 8.64,
+      "end": 15.84,
+      "duration": 7.2,
+      "confidence": 0.997,
+      "source_frames": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "engine",
+      "start": 12.96,
+      "end": 16.8,
+      "duration": 3.84,
+      "confidence": 0.822,
+      "source_frames": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "label": "siren",
+      "start": 20.64,
+      "end": 24.0,
+      "duration": 3.36,
+      "confidence": 0.989,
+      "source_frames": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 5,
+      "start": 2.4,
+      "end": 3.36,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.45
+        }
+      ]
+    },
+    {
+      "frame_index": 6,
+      "start": 2.88,
+      "end": 3.84,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.564
+        }
+      ]
+    },
+    {
+      "frame_index": 7,
+      "start": 3.36,
+      "end": 4.32,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.575
+        }
+      ]
+    },
+    {
+      "frame_index": 8,
+      "start": 3.84,
+      "end": 4.8,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.358
+        }
+      ]
+    },
+    {
+      "frame_index": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.364
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.398
+        }
+      ]
+    },
+    {
+      "frame_index": 12,
+      "start": 5.76,
+      "end": 6.72,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.371
+        }
+      ]
+    },
+    {
+      "frame_index": 13,
+      "start": 6.24,
+      "end": 7.2,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.489
+        }
+      ]
+    },
+    {
+      "frame_index": 14,
+      "start": 6.72,
+      "end": 7.68,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.422
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "start": 7.2,
+      "end": 8.16,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.509
+        }
+      ]
+    },
+    {
+      "frame_index": 18,
+      "start": 8.64,
+      "end": 9.6,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.441
+        }
+      ]
+    },
+    {
+      "frame_index": 20,
+      "start": 9.6,
+      "end": 10.56,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.89
+        }
+      ]
+    },
+    {
+      "frame_index": 22,
+      "start": 10.56,
+      "end": 11.52,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.801
+        }
+      ]
+    },
+    {
+      "frame_index": 23,
+      "start": 11.04,
+      "end": 12.0,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.935
+        }
+      ]
+    },
+    {
+      "frame_index": 24,
+      "start": 11.52,
+      "end": 12.48,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.997
+        }
+      ]
+    },
+    {
+      "frame_index": 25,
+      "start": 12.0,
+      "end": 12.96,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.432
+        }
+      ]
+    },
+    {
+      "frame_index": 26,
+      "start": 12.48,
+      "end": 13.44,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.632
+        }
+      ]
+    },
+    {
+      "frame_index": 27,
+      "start": 12.96,
+      "end": 13.92,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.589
+        },
+        {
+          "label": "siren",
+          "confidence": 0.629
+        }
+      ]
+    },
+    {
+      "frame_index": 28,
+      "start": 13.44,
+      "end": 14.4,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.608
+        },
+        {
+          "label": "siren",
+          "confidence": 0.721
+        }
+      ]
+    },
+    {
+      "frame_index": 29,
+      "start": 13.92,
+      "end": 14.88,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.571
+        },
+        {
+          "label": "siren",
+          "confidence": 0.773
+        }
+      ]
+    },
+    {
+      "frame_index": 30,
+      "start": 14.4,
+      "end": 15.36,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.597
+        },
+        {
+          "label": "siren",
+          "confidence": 0.513
+        }
+      ]
+    },
+    {
+      "frame_index": 31,
+      "start": 14.88,
+      "end": 15.84,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.741
+        },
+        {
+          "label": "siren",
+          "confidence": 0.366
+        }
+      ]
+    },
+    {
+      "frame_index": 32,
+      "start": 15.36,
+      "end": 16.32,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.822
+        }
+      ]
+    },
+    {
+      "frame_index": 33,
+      "start": 15.84,
+      "end": 16.8,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.502
+        }
+      ]
+    },
+    {
+      "frame_index": 43,
+      "start": 20.64,
+      "end": 21.6,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.752
+        }
+      ]
+    },
+    {
+      "frame_index": 44,
+      "start": 21.12,
+      "end": 22.08,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.735
+        }
+      ]
+    },
+    {
+      "frame_index": 45,
+      "start": 21.6,
+      "end": 22.56,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.981
+        }
+      ]
+    },
+    {
+      "frame_index": 46,
+      "start": 22.08,
+      "end": 23.04,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.989
+        }
+      ]
+    },
+    {
+      "frame_index": 47,
+      "start": 22.56,
+      "end": 23.52,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.816
+        }
+      ]
+    },
+    {
+      "frame_index": 48,
+      "start": 23.04,
+      "end": 24.0,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.567
+        }
+      ]
+    }
+  ]
+}

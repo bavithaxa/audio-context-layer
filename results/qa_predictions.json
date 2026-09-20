@@ -1,0 +1,3031 @@
+[
+  {
+    "qa_id": "scene_126_q01",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "engine, footsteps, siren",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005"
+    ],
+    "prediction": "engine, siren, footsteps",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_126_q02",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate engine events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_001",
+      "event_003"
+    ],
+    "prediction": "2",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_126_q03",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the engine or the footsteps?",
+    "answer": "engine",
+    "evidence_event_ids": [
+      "event_001",
+      "event_005"
+    ],
+    "prediction": "engine",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_126_q04",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a dog sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [],
+    "prediction": "No",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_126_q05",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the footsteps or the engine?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_003",
+      "event_005"
+    ],
+    "prediction": "engine",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_126_q06",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the siren event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_002"
+    ],
+    "prediction": "Approximately 3.36 seconds",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_126_q07",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A traffic roadside environment is suggested. Engine sounds, car horns and sirens provide evidence consistent with a road or traffic environment.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005"
+    ],
+    "prediction": "The combination of engine noises, intermittent sirens, and later footsteps suggests an urban or roadside environment where vehicles are moving and emergency or police vehicles may be present, with people walking nearby.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_126_q08",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "footsteps",
+    "evidence_event_ids": [
+      "event_005"
+    ],
+    "prediction": "footsteps",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_127_q01",
+    "scene_id": "scene_127",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "footsteps, rain, thunderstorm, water drops, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "rain, water drops, thunderstorm, wind",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_127_q02",
+    "scene_id": "scene_127",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate water drops events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_002"
+    ],
+    "prediction": "1",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_127_q03",
+    "scene_id": "scene_127",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the footsteps or the water drops?",
+    "answer": "footsteps",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_127_q04",
+    "scene_id": "scene_127",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a cow sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [],
+    "prediction": "No",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_127_q05",
+    "scene_id": "scene_127",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the wind or the thunderstorm?",
+    "answer": "wind",
+    "evidence_event_ids": [
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "thunderstorm",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_127_q06",
+    "scene_id": "scene_127",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the thunderstorm event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_003"
+    ],
+    "prediction": "Approximately 3.36 seconds",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_127_q07",
+    "scene_id": "scene_127",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A rainy stormy environment is suggested. Rain and wind provide evidence of outdoor weather, while thunderstorm sounds are consistent with stormy conditions.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "The sounds suggest an outdoor environment experiencing a rainstorm, with rain, water drops, thunder, and wind indicating a stormy weather setting.",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_127_q08",
+    "scene_id": "scene_127",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "thunderstorm",
+    "evidence_event_ids": [
+      "event_003"
+    ],
+    "prediction": "thunderstorm",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_128_q01",
+    "scene_id": "scene_128",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "cow, crow, hen, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008",
+      "event_009",
+      "event_010",
+      "event_011"
+    ],
+    "prediction": "engine, siren, hen, rooster, cow, dog, crow, chirping_birds",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_128_q02",
+    "scene_id": "scene_128",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate hen events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_003",
+      "event_010"
+    ],
+    "prediction": "2",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_128_q03",
+    "scene_id": "scene_128",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the wind or the crow?",
+    "answer": "wind",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_128_q04",
+    "scene_id": "scene_128",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a keyboard typing sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_128_q05",
+    "scene_id": "scene_128",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the crow or the cow?",
+    "answer": "crow",
+    "evidence_event_ids": [
+      "event_006",
+      "event_008"
+    ],
+    "prediction": "The cow lasted longer.",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_128_q06",
+    "scene_id": "scene_128",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the hen event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_003",
+      "event_010"
+    ],
+    "prediction": "Approximately 4.8 seconds",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_128_q07",
+    "scene_id": "scene_128",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A farm rural environment is suggested. Animal sounds such as cows, sheep, hens and roosters provide evidence consistent with a farm or rural environment.",
+    "evidence_event_ids": [
+      "event_003",
+      "event_004",
+      "event_006",
+      "event_007",
+      "event_008",
+      "event_009",
+      "event_010",
+      "event_011"
+    ],
+    "prediction": "The sounds suggest a rural or farm-like environment, where livestock and birds are present alongside occasional vehicle activity. Evidence includes the hen (event_003), rooster (event_004), cow (event_006), dog (event_007), crow (event_008), chirping birds (event_009), and additional hen and rooster sounds (event_010, event_011). The presence of engine (event_001, event_005) and siren (event_002) indicates some vehicle or emergency activity nearby, which can occur in such settings.",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_128_q08",
+    "scene_id": "scene_128",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "hen",
+    "evidence_event_ids": [
+      "event_010"
+    ],
+    "prediction": "hen",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_129_q01",
+    "scene_id": "scene_129",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "chirping birds, crow, dog, footsteps, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "engine, siren, dog",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_129_q02",
+    "scene_id": "scene_129",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate dog events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "2",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_129_q03",
+    "scene_id": "scene_129",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the crow or the footsteps?",
+    "answer": "crow",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_129_q04",
+    "scene_id": "scene_129",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a keyboard typing sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [],
+    "prediction": "No",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_129_q05",
+    "scene_id": "scene_129",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the footsteps or the chirping birds?",
+    "answer": "footsteps",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_129_q06",
+    "scene_id": "scene_129",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the chirping birds event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_129_q07",
+    "scene_id": "scene_129",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An outdoor residential environment is suggested. Birds and wind provide evidence consistent with an outdoor environment. Dogs or footsteps can provide additional evidence of a residential outdoor setting.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "The audio suggests an urban or traffic‑heavy environment, as indicated by the engine and siren sounds, with the presence of dog barks implying nearby residential or park areas.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_129_q08",
+    "scene_id": "scene_129",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "dog",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "dog",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_130_q01",
+    "scene_id": "scene_130",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "engine, footsteps, siren",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005"
+    ],
+    "prediction": "siren, engine, footsteps",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_130_q02",
+    "scene_id": "scene_130",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate footsteps events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "2",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_130_q03",
+    "scene_id": "scene_130",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the siren or the footsteps?",
+    "answer": "siren",
+    "evidence_event_ids": [
+      "event_001",
+      "event_003"
+    ],
+    "prediction": "The siren occurred first.",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_130_q04",
+    "scene_id": "scene_130",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a siren sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_001"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_130_q05",
+    "scene_id": "scene_130",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the engine or the footsteps?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "event_002",
+      "event_005",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "engine",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_130_q06",
+    "scene_id": "scene_130",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the engine event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_002",
+      "event_005"
+    ],
+    "prediction": "Approximately 5 seconds.",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_130_q07",
+    "scene_id": "scene_130",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A traffic roadside environment is suggested. Engine sounds, car horns and sirens provide evidence consistent with a road or traffic environment.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005"
+    ],
+    "prediction": "The sounds suggest an urban or road environment with traffic and pedestrians. The siren (event_001) indicates an emergency vehicle, the engine noises (event_002 and event_005) indicate passing vehicles, and the footsteps (event_003 and event_004) indicate people walking nearby.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_130_q08",
+    "scene_id": "scene_130",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "engine",
+    "evidence_event_ids": [
+      "event_005"
+    ],
+    "prediction": "engine",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_131_q01",
+    "scene_id": "scene_131",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "cow, crow, sheep, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008"
+    ],
+    "prediction": "chirping_birds, crow, engine, siren, sheep, cow",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_131_q02",
+    "scene_id": "scene_131",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate sheep events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_007"
+    ],
+    "prediction": "1",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_131_q03",
+    "scene_id": "scene_131",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the crow or the wind?",
+    "answer": "crow",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_131_q04",
+    "scene_id": "scene_131",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a crow sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_002",
+      "event_005"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_131_q05",
+    "scene_id": "scene_131",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the wind or the crow?",
+    "answer": "crow",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_131_q06",
+    "scene_id": "scene_131",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the crow event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_002",
+      "event_005"
+    ],
+    "prediction": "Approximately 1.5 to 2 seconds",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_131_q07",
+    "scene_id": "scene_131",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A farm rural environment is suggested. Animal sounds such as cows, sheep, hens and roosters provide evidence consistent with a farm or rural environment.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008"
+    ],
+    "prediction": "The audio suggests a rural or farm-like environment, as indicated by the presence of natural wildlife sounds (chirping birds, crows, sheep) alongside typical farm or rural machinery and traffic sounds (engine, siren). The coexistence of livestock noises (sheep, cow) further supports a pastoral setting.",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_131_q08",
+    "scene_id": "scene_131",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "sheep",
+    "evidence_event_ids": [
+      "event_007"
+    ],
+    "prediction": "sheep",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_132_q01",
+    "scene_id": "scene_132",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "car horn, rain, thunderstorm, water drops, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008",
+      "event_009"
+    ],
+    "prediction": "rain, water_drops, thunderstorm, engine, clock_tick",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_132_q02",
+    "scene_id": "scene_132",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate thunderstorm events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_003",
+      "event_007"
+    ],
+    "prediction": "2",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_132_q03",
+    "scene_id": "scene_132",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the rain or the car horn?",
+    "answer": "rain",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_132_q04",
+    "scene_id": "scene_132",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a water drops sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_002",
+      "event_006",
+      "event_009"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_132_q05",
+    "scene_id": "scene_132",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the wind or the rain?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_132_q06",
+    "scene_id": "scene_132",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the rain event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_001"
+    ],
+    "prediction": "Approximately 4.8 seconds",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_132_q07",
+    "scene_id": "scene_132",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A rainy stormy environment is suggested. Rain and wind provide evidence of outdoor weather, while thunderstorm sounds are consistent with stormy conditions.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_009"
+    ],
+    "prediction": "The audio suggests an outdoor environment experiencing rain and occasional thunderstorm, with a vehicle nearby. The rain and water‑drop sounds (events 001, 002, 005, 006, 009) indicate precipitation, while the thunderstorm events (003, 007) confirm storm activity. The engine sound (event 004) implies a vehicle is present in the vicinity.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_132_q08",
+    "scene_id": "scene_132",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "water drops",
+    "evidence_event_ids": [
+      "event_009"
+    ],
+    "prediction": "water_drops",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_133_q01",
+    "scene_id": "scene_133",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "cow, hen, sheep, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008",
+      "event_009",
+      "event_010",
+      "event_011",
+      "event_012"
+    ],
+    "prediction": "engine, hen, rooster, cow, car_horn, chirping_birds, sheep",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_133_q02",
+    "scene_id": "scene_133",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate cow events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_004",
+      "event_008"
+    ],
+    "prediction": "2",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_133_q03",
+    "scene_id": "scene_133",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the cow or the sheep?",
+    "answer": "cow",
+    "evidence_event_ids": [
+      "event_004",
+      "event_012"
+    ],
+    "prediction": "The cow occurred first.",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_133_q04",
+    "scene_id": "scene_133",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a cow sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_004",
+      "event_008"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_133_q05",
+    "scene_id": "scene_133",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the cow or the hen?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "event_004",
+      "event_009"
+    ],
+    "prediction": "hen",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_133_q06",
+    "scene_id": "scene_133",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the sheep event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_012"
+    ],
+    "prediction": "Approximately 4.32 seconds",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_133_q07",
+    "scene_id": "scene_133",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A farm rural environment is suggested. Animal sounds such as cows, sheep, hens and roosters provide evidence consistent with a farm or rural environment.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008",
+      "event_009",
+      "event_010",
+      "event_011",
+      "event_012"
+    ],
+    "prediction": "The sounds suggest a rural or farm-like environment, as indicated by the presence of farm animals such as hens, roosters, cows, and sheep, along with ambient bird chirping. The occasional engine and car horn imply some human activity nearby, but the dominant animal sounds point to a countryside or farm setting.",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_133_q08",
+    "scene_id": "scene_133",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "sheep",
+    "evidence_event_ids": [
+      "event_012"
+    ],
+    "prediction": "sheep",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_134_q01",
+    "scene_id": "scene_134",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "engine, siren",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "engine, siren",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_134_q02",
+    "scene_id": "scene_134",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate siren events occur in the scene?",
+    "answer": "4",
+    "evidence_event_ids": [
+      "event_002",
+      "event_004"
+    ],
+    "prediction": "2",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_134_q03",
+    "scene_id": "scene_134",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the engine or the siren?",
+    "answer": "engine",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002"
+    ],
+    "prediction": "engine",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_134_q04",
+    "scene_id": "scene_134",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a engine sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_001",
+      "event_003"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_134_q05",
+    "scene_id": "scene_134",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the engine or the siren?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002"
+    ],
+    "prediction": "The siren lasted longer.",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_134_q06",
+    "scene_id": "scene_134",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the siren event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_002"
+    ],
+    "prediction": "Approximately 7.2 seconds",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_134_q07",
+    "scene_id": "scene_134",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A traffic roadside environment is suggested. Engine sounds, car horns and sirens provide evidence consistent with a road or traffic environment.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "The combination of engine noises and sirens suggests an urban or traffic environment, possibly involving emergency vehicles. The engine sounds (event_001, event_003) and the siren sounds (event_002, event_004) support this inference.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_134_q08",
+    "scene_id": "scene_134",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "siren",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "siren",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_135_q01",
+    "scene_id": "scene_135",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "cow, crow, hen, sheep, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008",
+      "event_009",
+      "event_010"
+    ],
+    "prediction": "engine, dog, sheep, cow, crow, chirping_birds, hen, rooster",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_135_q02",
+    "scene_id": "scene_135",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate cow events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_004",
+      "event_008"
+    ],
+    "prediction": "2",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_135_q03",
+    "scene_id": "scene_135",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the sheep or the hen?",
+    "answer": "sheep",
+    "evidence_event_ids": [
+      "event_003",
+      "event_009"
+    ],
+    "prediction": "sheep",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_135_q04",
+    "scene_id": "scene_135",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a dog sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [
+      "event_002"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_135_q05",
+    "scene_id": "scene_135",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the cow or the hen?",
+    "answer": "cow",
+    "evidence_event_ids": [
+      "event_004",
+      "event_008",
+      "event_009"
+    ],
+    "prediction": "The hen lasted longer.",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_135_q06",
+    "scene_id": "scene_135",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the sheep event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_003"
+    ],
+    "prediction": "Approximately 1.44 seconds",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_135_q07",
+    "scene_id": "scene_135",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A farm rural environment is suggested. Animal sounds such as cows, sheep, hens and roosters provide evidence consistent with a farm or rural environment.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_003",
+      "event_004",
+      "event_006",
+      "event_007",
+      "event_008",
+      "event_009",
+      "event_010",
+      "event_005"
+    ],
+    "prediction": "The sounds suggest a rural farm or countryside environment, indicated by the presence of livestock noises (sheep, cow, hen, rooster) and farm machinery (engine), as well as outdoor bird sounds (crow, chirping birds).",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_135_q08",
+    "scene_id": "scene_135",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "hen",
+    "evidence_event_ids": [
+      "event_009",
+      "event_010"
+    ],
+    "prediction": "hen and rooster",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_136_q01",
+    "scene_id": "scene_136",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "car horn, chirping birds, dog, footsteps, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007"
+    ],
+    "prediction": "engine, siren, chirping_birds, footsteps, dog",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_136_q02",
+    "scene_id": "scene_136",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate footsteps events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "event_004",
+      "event_007"
+    ],
+    "prediction": "2",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_136_q03",
+    "scene_id": "scene_136",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the wind or the chirping birds?",
+    "answer": "wind",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_136_q04",
+    "scene_id": "scene_136",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a water drops sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [],
+    "prediction": "No",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_136_q05",
+    "scene_id": "scene_136",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the wind or the dog?",
+    "answer": "wind",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_136_q06",
+    "scene_id": "scene_136",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the footsteps event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_004",
+      "event_007"
+    ],
+    "prediction": "Approximately 0.96 seconds",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_136_q07",
+    "scene_id": "scene_136",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An outdoor residential environment is suggested. Birds and wind provide evidence consistent with an outdoor environment. Dogs or footsteps can provide additional evidence of a residential outdoor setting.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007"
+    ],
+    "prediction": "The combination of engine and siren sounds indicates traffic activity typical of an urban or suburban setting, while the presence of chirping birds, footsteps, and a dog suggests nearby natural or residential elements such as a street with trees or a park. Together these sounds point to a mixed urban/suburban environment with both vehicular and pedestrian activity.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_136_q08",
+    "scene_id": "scene_136",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "car horn",
+    "evidence_event_ids": [
+      "event_007"
+    ],
+    "prediction": "footsteps",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_137_q01",
+    "scene_id": "scene_137",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "crow, hen, rooster, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007"
+    ],
+    "prediction": "engine, siren, chirping_birds, hen, rooster, crow",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_137_q02",
+    "scene_id": "scene_137",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate rooster events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "event_005"
+    ],
+    "prediction": "1",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_137_q03",
+    "scene_id": "scene_137",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the wind or the crow?",
+    "answer": "wind",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_137_q04",
+    "scene_id": "scene_137",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a rooster sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_005"
+    ],
+    "prediction": "Yes, there is a rooster sound in the scene.",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_137_q05",
+    "scene_id": "scene_137",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the crow or the rooster?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "event_006",
+      "event_005"
+    ],
+    "prediction": "The rooster lasted longer.",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_137_q06",
+    "scene_id": "scene_137",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the rooster event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_005"
+    ],
+    "prediction": "Approximately 12.48 seconds",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_137_q07",
+    "scene_id": "scene_137",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A farm rural environment is suggested. Animal sounds such as cows, sheep, hens and roosters provide evidence consistent with a farm or rural environment.",
+    "evidence_event_ids": [
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_003",
+      "event_001",
+      "event_002"
+    ],
+    "prediction": "The sounds suggest a rural or farm-like environment with some nearby traffic or emergency activity.  The presence of hen, rooster, and crow vocalizations (events 004, 005, 006) indicates farm animals, while chirping birds (events 003 and 007) reinforce a natural outdoor setting.  The engine (event 001) and siren (event 002) imply nearby vehicular or emergency vehicle activity, consistent with a rural area that has road access.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_137_q08",
+    "scene_id": "scene_137",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "rooster",
+    "evidence_event_ids": [
+      "event_006"
+    ],
+    "prediction": "crow",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_138_q01",
+    "scene_id": "scene_138",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "crow, hen, rooster, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007"
+    ],
+    "prediction": "engine, dog, hen, rooster, chirping_birds, crow",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_138_q02",
+    "scene_id": "scene_138",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate crow events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_007"
+    ],
+    "prediction": "1",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_138_q03",
+    "scene_id": "scene_138",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the rooster or the crow?",
+    "answer": "rooster",
+    "evidence_event_ids": [
+      "event_004",
+      "event_007"
+    ],
+    "prediction": "rooster",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_138_q04",
+    "scene_id": "scene_138",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a crow sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_007"
+    ],
+    "prediction": "Yes",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_138_q05",
+    "scene_id": "scene_138",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the hen or the wind?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_138_q06",
+    "scene_id": "scene_138",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the rooster event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "Approximately 11.04 seconds",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_138_q07",
+    "scene_id": "scene_138",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A farm rural environment is suggested. Animal sounds such as cows, sheep, hens and roosters provide evidence consistent with a farm or rural environment.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007"
+    ],
+    "prediction": "The sounds suggest a rural or farm-like environment, where livestock and birds are present and machinery or vehicles are operating.  The presence of hens, roosters, chirping birds, and a crow (events 003, 004, 005, 006, 007) indicates farm or countryside wildlife, while the engine (event 001) and dog (event 002) are typical of a working farm setting.",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_138_q08",
+    "scene_id": "scene_138",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "crow",
+    "evidence_event_ids": [
+      "event_007"
+    ],
+    "prediction": "crow",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_139_q01",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "clock tick, door wood knock, laughing",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003"
+    ],
+    "prediction": "laughing, clock_tick",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_139_q02",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate laughing events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "event_001",
+      "event_003"
+    ],
+    "prediction": "2",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_139_q03",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the door wood knock or the laughing?",
+    "answer": "door wood knock",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_139_q04",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a chirping birds sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [],
+    "prediction": "No",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_139_q05",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the clock tick or the door wood knock?",
+    "answer": "door wood knock",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_139_q06",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the laughing event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_001",
+      "event_003"
+    ],
+    "prediction": "Approximately 4–5 seconds",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_139_q07",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An indoor room environment is suggested. Clock ticking, keyboard typing and mouse clicks are sounds consistent with an indoor room.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003"
+    ],
+    "prediction": "The sounds suggest an indoor social environment, such as a living room or office, where people are laughing and a clock is ticking. The laughing events (event_001 and event_003) indicate social interaction, while the clock_tick (event_002) points to a typical indoor setting with a timekeeping device.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_139_q08",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "laughing",
+    "evidence_event_ids": [
+      "event_003"
+    ],
+    "prediction": "laughing",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_140_q01",
+    "scene_id": "scene_140",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "car horn, chirping birds, crow, dog, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "chirping_birds, crow, engine, dog",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_140_q02",
+    "scene_id": "scene_140",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate crow events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_002"
+    ],
+    "prediction": "1",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_140_q03",
+    "scene_id": "scene_140",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the chirping birds or the dog?",
+    "answer": "chirping birds",
+    "evidence_event_ids": [
+      "event_001",
+      "event_004"
+    ],
+    "prediction": "chirping birds",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_140_q04",
+    "scene_id": "scene_140",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a wind sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [],
+    "prediction": "No",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_140_q05",
+    "scene_id": "scene_140",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the dog or the chirping birds?",
+    "answer": "chirping birds",
+    "evidence_event_ids": [
+      "event_001",
+      "event_004"
+    ],
+    "prediction": "The chirping birds lasted longer than the dog.",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_140_q06",
+    "scene_id": "scene_140",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the chirping birds event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_001"
+    ],
+    "prediction": "Approximately 1.92 seconds",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_140_q07",
+    "scene_id": "scene_140",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An outdoor residential environment is suggested. Birds and wind provide evidence consistent with an outdoor environment. Dogs or footsteps can provide additional evidence of a residential outdoor setting.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005"
+    ],
+    "prediction": "The sounds suggest an outdoor natural setting, likely a park or suburban area.  This is supported by the bird chirping and crow sounds (events 001, 002, 005) and the dog bark (event 004), all typical of a natural environment, while the engine sound (event 003) indicates nearby human activity consistent with a suburban setting.",
+    "confidence": 0.85,
+    "error": null
+  },
+  {
+    "qa_id": "scene_140_q08",
+    "scene_id": "scene_140",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "dog",
+    "evidence_event_ids": [
+      "event_005"
+    ],
+    "prediction": "chirping_birds",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_141_q01",
+    "scene_id": "scene_141",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "cow, crow, rooster, sheep, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008",
+      "event_009"
+    ],
+    "prediction": "siren, hen, rooster, sheep, chirping_birds, crow",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_141_q02",
+    "scene_id": "scene_141",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate wind events occur in the scene?",
+    "answer": "1",
+    "evidence_event_ids": [],
+    "prediction": "0",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_141_q03",
+    "scene_id": "scene_141",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the wind or the sheep?",
+    "answer": "wind",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_141_q04",
+    "scene_id": "scene_141",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a rooster sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_003",
+      "event_008"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_141_q05",
+    "scene_id": "scene_141",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the crow or the sheep?",
+    "answer": "crow",
+    "evidence_event_ids": [
+      "event_006",
+      "event_004"
+    ],
+    "prediction": "crow",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_141_q06",
+    "scene_id": "scene_141",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the crow event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_006"
+    ],
+    "prediction": "Approximately 5.28 seconds",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_141_q07",
+    "scene_id": "scene_141",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A farm rural environment is suggested. Animal sounds such as cows, sheep, hens and roosters provide evidence consistent with a farm or rural environment.",
+    "evidence_event_ids": [
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008",
+      "event_001",
+      "event_009"
+    ],
+    "prediction": "The audio suggests a rural or farm-like environment, indicated by the presence of farm animals such as hens (event_002, event_007), roosters (event_003, event_008), a sheep (event_004), a crow (event_006), and chirping birds (event_005). These animal sounds are typical of a countryside or farm setting. The occasional siren sounds (event_001, event_009) could be from nearby emergency vehicles or farm equipment, further supporting a non-urban context.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_141_q08",
+    "scene_id": "scene_141",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "crow",
+    "evidence_event_ids": [
+      "event_009"
+    ],
+    "prediction": "siren",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_142_q01",
+    "scene_id": "scene_142",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "car horn, chirping birds, crow, dog, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008"
+    ],
+    "prediction": "chirping_birds, hen, rooster, dog, crow",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_142_q02",
+    "scene_id": "scene_142",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate dog events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_004",
+      "event_006"
+    ],
+    "prediction": "2",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_142_q03",
+    "scene_id": "scene_142",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the chirping birds or the crow?",
+    "answer": "chirping birds",
+    "evidence_event_ids": [
+      "event_001",
+      "event_008"
+    ],
+    "prediction": "The chirping birds occurred first.",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_142_q04",
+    "scene_id": "scene_142",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a hen sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [
+      "event_002"
+    ],
+    "prediction": "Yes, there is a hen sound in the scene.",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_142_q05",
+    "scene_id": "scene_142",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the chirping birds or the dog?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "event_007",
+      "event_006"
+    ],
+    "prediction": "chirping birds",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_142_q06",
+    "scene_id": "scene_142",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the dog event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_004",
+      "event_006"
+    ],
+    "prediction": "Approximately 2.4 to 2.9 seconds.",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_142_q07",
+    "scene_id": "scene_142",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An outdoor residential environment is suggested. Birds and wind provide evidence consistent with an outdoor environment. Dogs or footsteps can provide additional evidence of a residential outdoor setting.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008"
+    ],
+    "prediction": "The sounds suggest a rural or farm-like environment, where domestic animals and wildlife coexist. This inference is supported by the presence of multiple bird species (chirping birds, hen, rooster, crow) and a dog, all typical of a farm or countryside setting.",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_142_q08",
+    "scene_id": "scene_142",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "crow",
+    "evidence_event_ids": [
+      "event_007"
+    ],
+    "prediction": "chirping_birds",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_143_q01",
+    "scene_id": "scene_143",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "car horn, rain, thunderstorm, water drops, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "engine, rain, water_drops",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_143_q02",
+    "scene_id": "scene_143",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate car horn events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [],
+    "prediction": "0",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_143_q03",
+    "scene_id": "scene_143",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the thunderstorm or the water drops?",
+    "answer": "thunderstorm",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_143_q04",
+    "scene_id": "scene_143",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a engine sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [
+      "event_001",
+      "event_004"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_143_q05",
+    "scene_id": "scene_143",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the wind or the rain?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_143_q06",
+    "scene_id": "scene_143",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the thunderstorm event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_143_q07",
+    "scene_id": "scene_143",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A rainy stormy environment is suggested. Rain and wind provide evidence of outdoor weather, while thunderstorm sounds are consistent with stormy conditions.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "The combination of engine sounds (event_001 and event_004) together with rain and water drop sounds (event_002 and event_003) could indicate an outdoor environment where a vehicle or machinery is operating in a rainy setting.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_143_q08",
+    "scene_id": "scene_143",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "car horn",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "engine",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_144_q01",
+    "scene_id": "scene_144",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "chirping birds, crow, dog, footsteps, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007",
+      "event_008",
+      "event_009"
+    ],
+    "prediction": "engine, chirping_birds, dog, crow",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_144_q02",
+    "scene_id": "scene_144",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate footsteps events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [],
+    "prediction": "0",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_144_q03",
+    "scene_id": "scene_144",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the wind or the dog?",
+    "answer": "wind",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_144_q04",
+    "scene_id": "scene_144",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a engine sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [
+      "event_001",
+      "event_007"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_144_q05",
+    "scene_id": "scene_144",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the dog or the footsteps?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_144_q06",
+    "scene_id": "scene_144",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the dog event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "Approximately 3.36 seconds",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_144_q07",
+    "scene_id": "scene_144",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An outdoor residential environment is suggested. Birds and wind provide evidence consistent with an outdoor environment. Dogs or footsteps can provide additional evidence of a residential outdoor setting.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_007",
+      "event_004",
+      "event_002",
+      "event_003",
+      "event_005",
+      "event_008",
+      "event_006",
+      "event_009"
+    ],
+    "prediction": "The mix of vehicle engine sounds, a barking dog, and multiple bird and crow calls suggests a suburban or mixed urban‑natural environment—there is evidence of human activity (engine and dog) alongside natural wildlife (chirping birds and crow).",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_144_q08",
+    "scene_id": "scene_144",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "footsteps",
+    "evidence_event_ids": [
+      "event_009"
+    ],
+    "prediction": "crow",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_145_q01",
+    "scene_id": "scene_145",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "car horn, chirping birds, crow, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "engine, siren, chirping_birds, crow",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_145_q02",
+    "scene_id": "scene_145",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate crow events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "1",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_145_q03",
+    "scene_id": "scene_145",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the car horn or the crow?",
+    "answer": "car horn",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_145_q04",
+    "scene_id": "scene_145",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a cow sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [],
+    "prediction": "No",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_145_q05",
+    "scene_id": "scene_145",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the crow or the chirping birds?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "The crow lasted longer.",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_145_q06",
+    "scene_id": "scene_145",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the crow event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "Approximately 12 seconds",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_145_q07",
+    "scene_id": "scene_145",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An outdoor residential environment is suggested. Birds and wind provide evidence consistent with an outdoor environment. Dogs or footsteps can provide additional evidence of a residential outdoor setting.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "The combination of an engine and a siren indicates traffic and an urban or suburban setting, while the presence of chirping birds and a crow suggests nearby natural or green areas. Together, these sounds point to a mixed urban/suburban environment with both human activity and some wildlife.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_145_q08",
+    "scene_id": "scene_145",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "car horn",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "crow",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_146_q01",
+    "scene_id": "scene_146",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "clock tick, door wood knock, footsteps, keyboard typing, mouse click",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "clock_tick, footsteps, door_wood_knock",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_146_q02",
+    "scene_id": "scene_146",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate door wood knock events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "2",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_146_q03",
+    "scene_id": "scene_146",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the keyboard typing or the door wood knock?",
+    "answer": "keyboard typing",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_146_q04",
+    "scene_id": "scene_146",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a door wood knock sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_146_q05",
+    "scene_id": "scene_146",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the door wood knock or the mouse click?",
+    "answer": "mouse click",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_146_q06",
+    "scene_id": "scene_146",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the keyboard typing event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_146_q07",
+    "scene_id": "scene_146",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An indoor room environment is suggested. Clock ticking, keyboard typing and mouse clicks are sounds consistent with an indoor room.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "The sounds suggest an indoor environment, such as a house or office. The presence of a clock tick (event_001) indicates an indoor timekeeping device, footsteps (event_002) imply movement within a building, and door knocks (event_003 and event_004) point to a door in that setting.",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_146_q08",
+    "scene_id": "scene_146",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "door wood knock",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "door_wood_knock",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_147_q01",
+    "scene_id": "scene_147",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "car horn, chirping birds, dog, wind",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_006",
+      "event_007"
+    ],
+    "prediction": "hen, rooster, dog, chirping_birds, laughing, engine",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_147_q02",
+    "scene_id": "scene_147",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate dog events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "event_003",
+      "event_005"
+    ],
+    "prediction": "2",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_147_q03",
+    "scene_id": "scene_147",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the dog or the car horn?",
+    "answer": "dog",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_147_q04",
+    "scene_id": "scene_147",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a chirping birds sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "Yes",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_147_q05",
+    "scene_id": "scene_147",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the wind or the car horn?",
+    "answer": "wind",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_147_q06",
+    "scene_id": "scene_147",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the dog event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_003",
+      "event_005"
+    ],
+    "prediction": "The first dog event lasts about 2.4 seconds (event_003), and the second dog event lasts about 6.24 seconds (event_005).",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_147_q07",
+    "scene_id": "scene_147",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An outdoor residential environment is suggested. Birds and wind provide evidence consistent with an outdoor environment. Dogs or footsteps can provide additional evidence of a residential outdoor setting.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004",
+      "event_005",
+      "event_007"
+    ],
+    "prediction": "The combination of hen and rooster calls, dog barking, chirping birds, and an engine sound suggests a rural or farm-like environment. The presence of farm animals (hen, rooster, dog) and natural bird sounds points to an outdoor setting, while the engine indicates some mechanical activity typical of a farm or rural area.",
+    "confidence": 0.85,
+    "error": null
+  },
+  {
+    "qa_id": "scene_147_q08",
+    "scene_id": "scene_147",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "car horn",
+    "evidence_event_ids": [
+      "event_007"
+    ],
+    "prediction": "engine",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_148_q01",
+    "scene_id": "scene_148",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "engine, footsteps, siren",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002"
+    ],
+    "prediction": "engine, siren",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_148_q02",
+    "scene_id": "scene_148",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate engine events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "event_001"
+    ],
+    "prediction": "1",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_148_q03",
+    "scene_id": "scene_148",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the engine or the footsteps?",
+    "answer": "engine",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_148_q04",
+    "scene_id": "scene_148",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a door wood knock sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": [],
+    "prediction": "No",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_148_q05",
+    "scene_id": "scene_148",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the footsteps or the engine?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_148_q06",
+    "scene_id": "scene_148",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the engine event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_001"
+    ],
+    "prediction": "Approximately 5.76 seconds",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_148_q07",
+    "scene_id": "scene_148",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A traffic roadside environment is suggested. Engine sounds, car horns and sirens provide evidence consistent with a road or traffic environment.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002"
+    ],
+    "prediction": "The combination of an engine sound and a siren suggests a road or traffic environment, likely an urban or highway setting where vehicles and emergency services are present. The engine sound (event_001) indicates a vehicle operating, while the siren (event_002) indicates an emergency vehicle or traffic control presence, both typical of a road traffic environment.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_148_q08",
+    "scene_id": "scene_148",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "siren",
+    "evidence_event_ids": [
+      "event_002"
+    ],
+    "prediction": "siren",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_149_q01",
+    "scene_id": "scene_149",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "engine, footsteps, siren",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "engine, door_wood_knock, siren",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_149_q02",
+    "scene_id": "scene_149",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate engine events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "event_001",
+      "event_003"
+    ],
+    "prediction": "2",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_149_q03",
+    "scene_id": "scene_149",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the engine or the footsteps?",
+    "answer": "engine",
+    "evidence_event_ids": [],
+    "prediction": "Cannot determine from the available audio context.",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_149_q04",
+    "scene_id": "scene_149",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a siren sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "Yes",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_149_q05",
+    "scene_id": "scene_149",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the siren or the engine?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_004"
+    ],
+    "prediction": "engine",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_149_q06",
+    "scene_id": "scene_149",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the engine event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_001"
+    ],
+    "prediction": "Approximately 6.24 seconds",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_149_q07",
+    "scene_id": "scene_149",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A traffic roadside environment is suggested. Engine sounds, car horns and sirens provide evidence consistent with a road or traffic environment.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "The combination of engine sounds, a door knock, and a siren points to an urban or roadside setting where vehicles are operating and emergency services may be present. The engine noises (event_001 and event_003) indicate vehicle activity, the door knock (event_002) suggests a building or vehicle door, and the siren (event_004) implies emergency or traffic activity.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_149_q08",
+    "scene_id": "scene_149",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "siren",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "siren",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_150_q01",
+    "scene_id": "scene_150",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "clock tick, door wood knock, footsteps",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "clock_tick, chirping_birds, footsteps, door_wood_knock",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_150_q02",
+    "scene_id": "scene_150",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate footsteps events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "event_003"
+    ],
+    "prediction": "1",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_150_q03",
+    "scene_id": "scene_150",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the clock tick or the door wood knock?",
+    "answer": "clock tick",
+    "evidence_event_ids": [
+      "event_001",
+      "event_004"
+    ],
+    "prediction": "clock tick",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "qa_id": "scene_150_q04",
+    "scene_id": "scene_150",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a clock tick sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "event_001"
+    ],
+    "prediction": "Yes",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "qa_id": "scene_150_q05",
+    "scene_id": "scene_150",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the door wood knock or the clock tick?",
+    "answer": "door wood knock",
+    "evidence_event_ids": [
+      "event_001",
+      "event_004"
+    ],
+    "prediction": "door wood knock",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "qa_id": "scene_150_q06",
+    "scene_id": "scene_150",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the door wood knock event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "Approximately 3.36 seconds",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "qa_id": "scene_150_q07",
+    "scene_id": "scene_150",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An indoor room environment is suggested. Clock ticking, keyboard typing and mouse clicks are sounds consistent with an indoor room.",
+    "evidence_event_ids": [
+      "event_001",
+      "event_002",
+      "event_003",
+      "event_004"
+    ],
+    "prediction": "The sounds point to a quiet residential setting, such as a house or apartment.  The clock tick, footsteps, and door knock are typical indoor noises, while the chirping birds suggest an outdoor element—perhaps a window or open door—allowing birds to be heard.  Together these indicate an indoor environment with some connection to the outdoors.",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "qa_id": "scene_150_q08",
+    "scene_id": "scene_150",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "door wood knock",
+    "evidence_event_ids": [
+      "event_004"
+    ],
+    "prediction": "door_wood_knock",
+    "confidence": 0.95,
+    "error": null
+  }
+]

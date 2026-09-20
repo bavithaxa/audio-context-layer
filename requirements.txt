@@ -1,0 +1,13 @@
+﻿numpy
+pandas
+scikit-learn
+librosa
+soundfile
+matplotlib
+pydub
+torch
+transformers
+tensorflow
+tensorflow-hub
+panns-inference
+groq

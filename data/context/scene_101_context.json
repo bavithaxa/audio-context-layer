@@ -1,0 +1,292 @@
+{
+  "audio": {
+    "file": "scene_101.wav",
+    "duration": 30.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "engine",
+      "start": 3.84,
+      "end": 8.64,
+      "duration": 4.8,
+      "confidence": 0.689,
+      "source_frames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "footsteps",
+      "start": 17.28,
+      "end": 23.04,
+      "duration": 5.76,
+      "confidence": 0.949,
+      "source_frames": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "footsteps",
+      "start": 24.96,
+      "end": 26.88,
+      "duration": 1.92,
+      "confidence": 0.615,
+      "source_frames": [
+        52,
+        53,
+        54
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 8,
+      "start": 3.84,
+      "end": 4.8,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.506
+        }
+      ]
+    },
+    {
+      "frame_index": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.37
+        }
+      ]
+    },
+    {
+      "frame_index": 11,
+      "start": 5.28,
+      "end": 6.24,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.479
+        }
+      ]
+    },
+    {
+      "frame_index": 12,
+      "start": 5.76,
+      "end": 6.72,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.435
+        }
+      ]
+    },
+    {
+      "frame_index": 13,
+      "start": 6.24,
+      "end": 7.2,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.452
+        }
+      ]
+    },
+    {
+      "frame_index": 14,
+      "start": 6.72,
+      "end": 7.68,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.451
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "start": 7.2,
+      "end": 8.16,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.337
+        }
+      ]
+    },
+    {
+      "frame_index": 16,
+      "start": 7.68,
+      "end": 8.64,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.689
+        }
+      ]
+    },
+    {
+      "frame_index": 36,
+      "start": 17.28,
+      "end": 18.24,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.786
+        }
+      ]
+    },
+    {
+      "frame_index": 37,
+      "start": 17.76,
+      "end": 18.72,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.4
+        }
+      ]
+    },
+    {
+      "frame_index": 40,
+      "start": 19.2,
+      "end": 20.16,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.408
+        }
+      ]
+    },
+    {
+      "frame_index": 41,
+      "start": 19.68,
+      "end": 20.64,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.732
+        }
+      ]
+    },
+    {
+      "frame_index": 42,
+      "start": 20.16,
+      "end": 21.12,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.382
+        }
+      ]
+    },
+    {
+      "frame_index": 43,
+      "start": 20.64,
+      "end": 21.6,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.486
+        }
+      ]
+    },
+    {
+      "frame_index": 44,
+      "start": 21.12,
+      "end": 22.08,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.82
+        }
+      ]
+    },
+    {
+      "frame_index": 45,
+      "start": 21.6,
+      "end": 22.56,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.822
+        }
+      ]
+    },
+    {
+      "frame_index": 46,
+      "start": 22.08,
+      "end": 23.04,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.949
+        }
+      ]
+    },
+    {
+      "frame_index": 52,
+      "start": 24.96,
+      "end": 25.92,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.615
+        }
+      ]
+    },
+    {
+      "frame_index": 53,
+      "start": 25.44,
+      "end": 26.4,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.444
+        }
+      ]
+    },
+    {
+      "frame_index": 54,
+      "start": 25.92,
+      "end": 26.88,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.381
+        }
+      ]
+    }
+  ]
+}

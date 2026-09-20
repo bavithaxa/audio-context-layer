@@ -1,0 +1,136 @@
+{
+  "model": "YAMNet",
+  "threshold": 0.3,
+  "test_windows": 248,
+  "test_scenes": 25,
+  "overall": {
+    "micro_precision": 0.6867088607594937,
+    "micro_recall": 0.484375,
+    "micro_f1": 0.5680628272251309,
+    "macro_precision": 0.6108265345765346,
+    "macro_recall": 0.5042041456309841,
+    "macro_f1": 0.5214143782610273
+  },
+  "per_class": {
+    "car_horn": {
+      "precision": 0.6666666666666666,
+      "recall": 0.3448275862068966,
+      "f1": 0.45454545454545453,
+      "support": 29
+    },
+    "chirping_birds": {
+      "precision": 0.3392857142857143,
+      "recall": 0.76,
+      "f1": 0.4691358024691358,
+      "support": 25
+    },
+    "clock_tick": {
+      "precision": 0.7,
+      "recall": 0.7,
+      "f1": 0.7,
+      "support": 10
+    },
+    "cow": {
+      "precision": 0.8333333333333334,
+      "recall": 0.45454545454545453,
+      "f1": 0.5882352941176471,
+      "support": 22
+    },
+    "crow": {
+      "precision": 0.9393939393939394,
+      "recall": 0.7560975609756098,
+      "f1": 0.8378378378378378,
+      "support": 41
+    },
+    "dog": {
+      "precision": 0.7714285714285715,
+      "recall": 0.8181818181818182,
+      "f1": 0.7941176470588235,
+      "support": 33
+    },
+    "door_wood_knock": {
+      "precision": 0.7,
+      "recall": 0.4117647058823529,
+      "f1": 0.5185185185185185,
+      "support": 17
+    },
+    "engine": {
+      "precision": 0.7142857142857143,
+      "recall": 0.15625,
+      "f1": 0.2564102564102564,
+      "support": 32
+    },
+    "footsteps": {
+      "precision": 1.0,
+      "recall": 0.27450980392156865,
+      "f1": 0.4307692307692308,
+      "support": 51
+    },
+    "hen": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8333333333333334,
+      "f1": 0.7407407407407407,
+      "support": 24
+    },
+    "keyboard_typing": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "laughing": {
+      "precision": 0.7777777777777778,
+      "recall": 0.7777777777777778,
+      "f1": 0.7777777777777778,
+      "support": 9
+    },
+    "mouse_click": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "rain": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8,
+      "support": 10
+    },
+    "rooster": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 13
+    },
+    "sheep": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "support": 16
+    },
+    "siren": {
+      "precision": 0.5384615384615384,
+      "recall": 0.75,
+      "f1": 0.6268656716417911,
+      "support": 28
+    },
+    "thunderstorm": {
+      "precision": 1.0,
+      "recall": 0.5384615384615384,
+      "f1": 0.7,
+      "support": 13
+    },
+    "water_drops": {
+      "precision": 0.7692307692307693,
+      "recall": 0.8333333333333334,
+      "f1": 0.8,
+      "support": 12
+    },
+    "wind": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 57
+    }
+  }
+}

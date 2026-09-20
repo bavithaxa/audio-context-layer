@@ -1,0 +1,458 @@
+{
+  "audio": {
+    "file": "scene_147.wav",
+    "duration": 22.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "hen",
+      "start": 1.92,
+      "end": 2.88,
+      "duration": 0.96,
+      "confidence": 0.81,
+      "source_frames": [
+        4
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "rooster",
+      "start": 1.92,
+      "end": 2.88,
+      "duration": 0.96,
+      "confidence": 0.81,
+      "source_frames": [
+        4
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "dog",
+      "start": 2.4,
+      "end": 4.8,
+      "duration": 2.4,
+      "confidence": 0.717,
+      "source_frames": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "label": "chirping_birds",
+      "start": 4.8,
+      "end": 8.64,
+      "duration": 3.84,
+      "confidence": 0.901,
+      "source_frames": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "event_id": "event_005",
+      "label": "dog",
+      "start": 8.64,
+      "end": 14.88,
+      "duration": 6.24,
+      "confidence": 0.968,
+      "source_frames": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "event_id": "event_006",
+      "label": "laughing",
+      "start": 14.88,
+      "end": 15.84,
+      "duration": 0.96,
+      "confidence": 0.43,
+      "source_frames": [
+        31
+      ]
+    },
+    {
+      "event_id": "event_007",
+      "label": "engine",
+      "start": 15.36,
+      "end": 20.16,
+      "duration": 4.8,
+      "confidence": 0.671,
+      "source_frames": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 4,
+      "start": 1.92,
+      "end": 2.88,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.81
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.81
+        }
+      ]
+    },
+    {
+      "frame_index": 5,
+      "start": 2.4,
+      "end": 3.36,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.432
+        }
+      ]
+    },
+    {
+      "frame_index": 6,
+      "start": 2.88,
+      "end": 3.84,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.631
+        }
+      ]
+    },
+    {
+      "frame_index": 7,
+      "start": 3.36,
+      "end": 4.32,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.717
+        }
+      ]
+    },
+    {
+      "frame_index": 8,
+      "start": 3.84,
+      "end": 4.8,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.709
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.901
+        }
+      ]
+    },
+    {
+      "frame_index": 14,
+      "start": 6.72,
+      "end": 7.68,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.418
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "start": 7.2,
+      "end": 8.16,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.865
+        }
+      ]
+    },
+    {
+      "frame_index": 16,
+      "start": 7.68,
+      "end": 8.64,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.83
+        }
+      ]
+    },
+    {
+      "frame_index": 18,
+      "start": 8.64,
+      "end": 9.6,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.926
+        }
+      ]
+    },
+    {
+      "frame_index": 19,
+      "start": 9.12,
+      "end": 10.08,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.899
+        }
+      ]
+    },
+    {
+      "frame_index": 20,
+      "start": 9.6,
+      "end": 10.56,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.958
+        }
+      ]
+    },
+    {
+      "frame_index": 21,
+      "start": 10.08,
+      "end": 11.04,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.968
+        }
+      ]
+    },
+    {
+      "frame_index": 22,
+      "start": 10.56,
+      "end": 11.52,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.877
+        }
+      ]
+    },
+    {
+      "frame_index": 23,
+      "start": 11.04,
+      "end": 12.0,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.905
+        }
+      ]
+    },
+    {
+      "frame_index": 24,
+      "start": 11.52,
+      "end": 12.48,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.725
+        }
+      ]
+    },
+    {
+      "frame_index": 25,
+      "start": 12.0,
+      "end": 12.96,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.804
+        }
+      ]
+    },
+    {
+      "frame_index": 26,
+      "start": 12.48,
+      "end": 13.44,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.875
+        }
+      ]
+    },
+    {
+      "frame_index": 27,
+      "start": 12.96,
+      "end": 13.92,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.801
+        }
+      ]
+    },
+    {
+      "frame_index": 28,
+      "start": 13.44,
+      "end": 14.4,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.852
+        }
+      ]
+    },
+    {
+      "frame_index": 29,
+      "start": 13.92,
+      "end": 14.88,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.906
+        }
+      ]
+    },
+    {
+      "frame_index": 31,
+      "start": 14.88,
+      "end": 15.84,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.43
+        }
+      ]
+    },
+    {
+      "frame_index": 32,
+      "start": 15.36,
+      "end": 16.32,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.361
+        }
+      ]
+    },
+    {
+      "frame_index": 33,
+      "start": 15.84,
+      "end": 16.8,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.642
+        }
+      ]
+    },
+    {
+      "frame_index": 34,
+      "start": 16.32,
+      "end": 17.28,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.671
+        }
+      ]
+    },
+    {
+      "frame_index": 35,
+      "start": 16.8,
+      "end": 17.76,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.481
+        }
+      ]
+    },
+    {
+      "frame_index": 36,
+      "start": 17.28,
+      "end": 18.24,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.475
+        }
+      ]
+    },
+    {
+      "frame_index": 37,
+      "start": 17.76,
+      "end": 18.72,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.313
+        }
+      ]
+    },
+    {
+      "frame_index": 39,
+      "start": 18.72,
+      "end": 19.68,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.531
+        }
+      ]
+    },
+    {
+      "frame_index": 40,
+      "start": 19.2,
+      "end": 20.16,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.596
+        }
+      ]
+    }
+  ]
+}

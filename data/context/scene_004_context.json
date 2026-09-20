@@ -1,0 +1,466 @@
+{
+  "audio": {
+    "path": "data/scenes/scene_004.wav",
+    "duration": 20.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "frame_duration_seconds": 0.96,
+    "frame_hop_seconds": 0.48,
+    "min_event_duration": 0.4,
+    "max_gap": 0.75
+  },
+  "events": [
+    {
+      "label": "water_drops",
+      "start": 2.88,
+      "end": 5.28,
+      "duration": 2.4,
+      "confidence": 0.7265,
+      "source_frames": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "event_id": "event_001"
+    },
+    {
+      "label": "rain",
+      "start": 3.36,
+      "end": 6.24,
+      "duration": 2.88,
+      "confidence": 0.7551,
+      "source_frames": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "event_id": "event_002"
+    },
+    {
+      "label": "thunderstorm",
+      "start": 3.36,
+      "end": 4.8,
+      "duration": 1.44,
+      "confidence": 0.6819,
+      "source_frames": [
+        7,
+        8
+      ],
+      "event_id": "event_003"
+    },
+    {
+      "label": "water_drops",
+      "start": 9.6,
+      "end": 10.56,
+      "duration": 0.96,
+      "confidence": 0.4727,
+      "source_frames": [
+        20
+      ],
+      "event_id": "event_004"
+    },
+    {
+      "label": "water_drops",
+      "start": 12.0,
+      "end": 14.88,
+      "duration": 2.88,
+      "confidence": 0.6774,
+      "source_frames": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "event_id": "event_005"
+    },
+    {
+      "label": "rain",
+      "start": 12.48,
+      "end": 14.88,
+      "duration": 2.4,
+      "confidence": 0.9227,
+      "source_frames": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "event_id": "event_006"
+    },
+    {
+      "label": "thunderstorm",
+      "start": 12.48,
+      "end": 14.88,
+      "duration": 2.4,
+      "confidence": 0.9942,
+      "source_frames": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "event_id": "event_007"
+    }
+  ],
+  "frames": [
+    {
+      "frame_id": 0,
+      "start": 0.0,
+      "end": 0.96,
+      "predictions": []
+    },
+    {
+      "frame_id": 1,
+      "start": 0.48,
+      "end": 1.44,
+      "predictions": []
+    },
+    {
+      "frame_id": 2,
+      "start": 0.96,
+      "end": 1.92,
+      "predictions": []
+    },
+    {
+      "frame_id": 3,
+      "start": 1.44,
+      "end": 2.4,
+      "predictions": []
+    },
+    {
+      "frame_id": 4,
+      "start": 1.92,
+      "end": 2.88,
+      "predictions": []
+    },
+    {
+      "frame_id": 5,
+      "start": 2.4,
+      "end": 3.36,
+      "predictions": []
+    },
+    {
+      "frame_id": 6,
+      "start": 2.88,
+      "end": 3.84,
+      "predictions": [
+        {
+          "label": "water_drops",
+          "confidence": 0.7265
+        }
+      ]
+    },
+    {
+      "frame_id": 7,
+      "start": 3.36,
+      "end": 4.32,
+      "predictions": [
+        {
+          "label": "rain",
+          "confidence": 0.668
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.668
+        },
+        {
+          "label": "thunderstorm",
+          "confidence": 0.366
+        }
+      ]
+    },
+    {
+      "frame_id": 8,
+      "start": 3.84,
+      "end": 4.8,
+      "predictions": [
+        {
+          "label": "rain",
+          "confidence": 0.7551
+        },
+        {
+          "label": "thunderstorm",
+          "confidence": 0.6819
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.6428
+        }
+      ]
+    },
+    {
+      "frame_id": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "predictions": [
+        {
+          "label": "rain",
+          "confidence": 0.6222
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.4387
+        }
+      ]
+    },
+    {
+      "frame_id": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "predictions": []
+    },
+    {
+      "frame_id": 11,
+      "start": 5.28,
+      "end": 6.24,
+      "predictions": [
+        {
+          "label": "rain",
+          "confidence": 0.3762
+        }
+      ]
+    },
+    {
+      "frame_id": 12,
+      "start": 5.76,
+      "end": 6.72,
+      "predictions": []
+    },
+    {
+      "frame_id": 13,
+      "start": 6.24,
+      "end": 7.2,
+      "predictions": []
+    },
+    {
+      "frame_id": 14,
+      "start": 6.72,
+      "end": 7.68,
+      "predictions": []
+    },
+    {
+      "frame_id": 15,
+      "start": 7.2,
+      "end": 8.16,
+      "predictions": []
+    },
+    {
+      "frame_id": 16,
+      "start": 7.68,
+      "end": 8.64,
+      "predictions": []
+    },
+    {
+      "frame_id": 17,
+      "start": 8.16,
+      "end": 9.12,
+      "predictions": []
+    },
+    {
+      "frame_id": 18,
+      "start": 8.64,
+      "end": 9.6,
+      "predictions": []
+    },
+    {
+      "frame_id": 19,
+      "start": 9.12,
+      "end": 10.08,
+      "predictions": []
+    },
+    {
+      "frame_id": 20,
+      "start": 9.6,
+      "end": 10.56,
+      "predictions": [
+        {
+          "label": "water_drops",
+          "confidence": 0.4727
+        }
+      ]
+    },
+    {
+      "frame_id": 21,
+      "start": 10.08,
+      "end": 11.04,
+      "predictions": []
+    },
+    {
+      "frame_id": 22,
+      "start": 10.56,
+      "end": 11.52,
+      "predictions": []
+    },
+    {
+      "frame_id": 23,
+      "start": 11.04,
+      "end": 12.0,
+      "predictions": []
+    },
+    {
+      "frame_id": 24,
+      "start": 11.52,
+      "end": 12.48,
+      "predictions": []
+    },
+    {
+      "frame_id": 25,
+      "start": 12.0,
+      "end": 12.96,
+      "predictions": [
+        {
+          "label": "water_drops",
+          "confidence": 0.3218
+        }
+      ]
+    },
+    {
+      "frame_id": 26,
+      "start": 12.48,
+      "end": 13.44,
+      "predictions": [
+        {
+          "label": "thunderstorm",
+          "confidence": 0.8775
+        },
+        {
+          "label": "rain",
+          "confidence": 0.7034
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.4955
+        }
+      ]
+    },
+    {
+      "frame_id": 27,
+      "start": 12.96,
+      "end": 13.92,
+      "predictions": [
+        {
+          "label": "thunderstorm",
+          "confidence": 0.8497
+        },
+        {
+          "label": "rain",
+          "confidence": 0.484
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.3015
+        }
+      ]
+    },
+    {
+      "frame_id": 28,
+      "start": 13.44,
+      "end": 14.4,
+      "predictions": [
+        {
+          "label": "thunderstorm",
+          "confidence": 0.9942
+        },
+        {
+          "label": "rain",
+          "confidence": 0.9227
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.6774
+        }
+      ]
+    },
+    {
+      "frame_id": 29,
+      "start": 13.92,
+      "end": 14.88,
+      "predictions": [
+        {
+          "label": "thunderstorm",
+          "confidence": 0.9557
+        },
+        {
+          "label": "rain",
+          "confidence": 0.54
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.3022
+        }
+      ]
+    },
+    {
+      "frame_id": 30,
+      "start": 14.4,
+      "end": 15.36,
+      "predictions": []
+    },
+    {
+      "frame_id": 31,
+      "start": 14.88,
+      "end": 15.84,
+      "predictions": []
+    },
+    {
+      "frame_id": 32,
+      "start": 15.36,
+      "end": 16.32,
+      "predictions": []
+    },
+    {
+      "frame_id": 33,
+      "start": 15.84,
+      "end": 16.8,
+      "predictions": []
+    },
+    {
+      "frame_id": 34,
+      "start": 16.32,
+      "end": 17.28,
+      "predictions": []
+    },
+    {
+      "frame_id": 35,
+      "start": 16.8,
+      "end": 17.76,
+      "predictions": []
+    },
+    {
+      "frame_id": 36,
+      "start": 17.28,
+      "end": 18.24,
+      "predictions": []
+    },
+    {
+      "frame_id": 37,
+      "start": 17.76,
+      "end": 18.72,
+      "predictions": []
+    },
+    {
+      "frame_id": 38,
+      "start": 18.24,
+      "end": 19.2,
+      "predictions": []
+    },
+    {
+      "frame_id": 39,
+      "start": 18.72,
+      "end": 19.68,
+      "predictions": []
+    },
+    {
+      "frame_id": 40,
+      "start": 19.2,
+      "end": 20.0,
+      "predictions": []
+    }
+  ]
+}

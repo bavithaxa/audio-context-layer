@@ -1,0 +1,61 @@
+{
+  "scene_id": "scene_074",
+  "split": "train",
+  "scene_type": "outdoor_residential",
+  "duration": 20,
+  "seed": 42,
+  "events": [
+    {
+      "event_id": "e1",
+      "label": "wind",
+      "start": 3.05,
+      "end": 8.05,
+      "source_file": "1-51035-A-16.wav",
+      "role": "background"
+    },
+    {
+      "event_id": "e2",
+      "label": "chirping_birds",
+      "start": 3.54,
+      "end": 8.54,
+      "source_file": "1-38559-A-14.wav",
+      "role": "background"
+    },
+    {
+      "event_id": "e3",
+      "label": "crow",
+      "start": 6.79,
+      "end": 11.79,
+      "source_file": "3-127890-B-9.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e4",
+      "label": "car_horn",
+      "start": 10.84,
+      "end": 15.84,
+      "source_file": "2-128465-A-43.wav",
+      "role": "foreground_repeat"
+    },
+    {
+      "event_id": "e5",
+      "label": "car_horn",
+      "start": 11.98,
+      "end": 16.98,
+      "source_file": "1-24076-A-43.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e6",
+      "label": "crow",
+      "start": 12.81,
+      "end": 17.81,
+      "source_file": "1-39835-A-9.wav",
+      "role": "foreground"
+    }
+  ],
+  "hidden_reasoning": {
+    "environment": "outdoor_residential",
+    "reference_basis": "Birds and wind provide evidence consistent with an outdoor environment. Dogs or footsteps can provide additional evidence of a residential outdoor setting."
+  }
+}

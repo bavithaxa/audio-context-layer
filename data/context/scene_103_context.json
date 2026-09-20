@@ -1,0 +1,430 @@
+{
+  "audio": {
+    "file": "scene_103.wav",
+    "duration": 30.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "chirping_birds",
+      "start": 0.48,
+      "end": 4.8,
+      "duration": 4.32,
+      "confidence": 0.966,
+      "source_frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "chirping_birds",
+      "start": 10.08,
+      "end": 11.52,
+      "duration": 1.44,
+      "confidence": 0.36,
+      "source_frames": [
+        21,
+        22
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "wind",
+      "start": 11.04,
+      "end": 14.4,
+      "duration": 3.36,
+      "confidence": 0.454,
+      "source_frames": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "label": "door_wood_knock",
+      "start": 16.8,
+      "end": 18.72,
+      "duration": 1.92,
+      "confidence": 0.953,
+      "source_frames": [
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "event_id": "event_005",
+      "label": "crow",
+      "start": 18.72,
+      "end": 24.48,
+      "duration": 5.76,
+      "confidence": 0.987,
+      "source_frames": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "event_id": "event_006",
+      "label": "chirping_birds",
+      "start": 19.2,
+      "end": 24.48,
+      "duration": 5.28,
+      "confidence": 0.897,
+      "source_frames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "event_id": "event_007",
+      "label": "footsteps",
+      "start": 24.48,
+      "end": 25.92,
+      "duration": 1.44,
+      "confidence": 0.887,
+      "source_frames": [
+        51,
+        52
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 1,
+      "start": 0.48,
+      "end": 1.44,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.793
+        }
+      ]
+    },
+    {
+      "frame_index": 2,
+      "start": 0.96,
+      "end": 1.92,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.858
+        }
+      ]
+    },
+    {
+      "frame_index": 3,
+      "start": 1.44,
+      "end": 2.4,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.515
+        }
+      ]
+    },
+    {
+      "frame_index": 4,
+      "start": 1.92,
+      "end": 2.88,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.709
+        }
+      ]
+    },
+    {
+      "frame_index": 5,
+      "start": 2.4,
+      "end": 3.36,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.759
+        }
+      ]
+    },
+    {
+      "frame_index": 6,
+      "start": 2.88,
+      "end": 3.84,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.966
+        }
+      ]
+    },
+    {
+      "frame_index": 7,
+      "start": 3.36,
+      "end": 4.32,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.726
+        }
+      ]
+    },
+    {
+      "frame_index": 8,
+      "start": 3.84,
+      "end": 4.8,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.755
+        }
+      ]
+    },
+    {
+      "frame_index": 21,
+      "start": 10.08,
+      "end": 11.04,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.314
+        }
+      ]
+    },
+    {
+      "frame_index": 22,
+      "start": 10.56,
+      "end": 11.52,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.36
+        }
+      ]
+    },
+    {
+      "frame_index": 23,
+      "start": 11.04,
+      "end": 12.0,
+      "labels": [
+        {
+          "label": "wind",
+          "confidence": 0.454
+        }
+      ]
+    },
+    {
+      "frame_index": 27,
+      "start": 12.96,
+      "end": 13.92,
+      "labels": [
+        {
+          "label": "wind",
+          "confidence": 0.373
+        }
+      ]
+    },
+    {
+      "frame_index": 28,
+      "start": 13.44,
+      "end": 14.4,
+      "labels": [
+        {
+          "label": "wind",
+          "confidence": 0.353
+        }
+      ]
+    },
+    {
+      "frame_index": 35,
+      "start": 16.8,
+      "end": 17.76,
+      "labels": [
+        {
+          "label": "door_wood_knock",
+          "confidence": 0.802
+        }
+      ]
+    },
+    {
+      "frame_index": 36,
+      "start": 17.28,
+      "end": 18.24,
+      "labels": [
+        {
+          "label": "door_wood_knock",
+          "confidence": 0.953
+        }
+      ]
+    },
+    {
+      "frame_index": 37,
+      "start": 17.76,
+      "end": 18.72,
+      "labels": [
+        {
+          "label": "door_wood_knock",
+          "confidence": 0.487
+        }
+      ]
+    },
+    {
+      "frame_index": 39,
+      "start": 18.72,
+      "end": 19.68,
+      "labels": [
+        {
+          "label": "crow",
+          "confidence": 0.453
+        }
+      ]
+    },
+    {
+      "frame_index": 40,
+      "start": 19.2,
+      "end": 20.16,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.831
+        },
+        {
+          "label": "crow",
+          "confidence": 0.884
+        }
+      ]
+    },
+    {
+      "frame_index": 41,
+      "start": 19.68,
+      "end": 20.64,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.419
+        },
+        {
+          "label": "crow",
+          "confidence": 0.584
+        }
+      ]
+    },
+    {
+      "frame_index": 42,
+      "start": 20.16,
+      "end": 21.12,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.344
+        },
+        {
+          "label": "crow",
+          "confidence": 0.677
+        }
+      ]
+    },
+    {
+      "frame_index": 43,
+      "start": 20.64,
+      "end": 21.6,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.717
+        },
+        {
+          "label": "crow",
+          "confidence": 0.875
+        }
+      ]
+    },
+    {
+      "frame_index": 44,
+      "start": 21.12,
+      "end": 22.08,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.826
+        },
+        {
+          "label": "crow",
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "frame_index": 49,
+      "start": 23.52,
+      "end": 24.48,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.897
+        },
+        {
+          "label": "crow",
+          "confidence": 0.987
+        }
+      ]
+    },
+    {
+      "frame_index": 51,
+      "start": 24.48,
+      "end": 25.44,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.887
+        }
+      ]
+    },
+    {
+      "frame_index": 52,
+      "start": 24.96,
+      "end": 25.92,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.854
+        }
+      ]
+    }
+  ]
+}

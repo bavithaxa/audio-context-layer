@@ -1,0 +1,61 @@
+{
+  "scene_id": "scene_034",
+  "split": "train",
+  "scene_type": "rainy_stormy",
+  "duration": 30,
+  "seed": 42,
+  "events": [
+    {
+      "event_id": "e1",
+      "label": "wind",
+      "start": 3.23,
+      "end": 8.23,
+      "source_file": "3-134699-A-16.wav",
+      "role": "background"
+    },
+    {
+      "event_id": "e2",
+      "label": "rain",
+      "start": 4.38,
+      "end": 9.38,
+      "source_file": "1-17367-A-10.wav",
+      "role": "background"
+    },
+    {
+      "event_id": "e3",
+      "label": "car_horn",
+      "start": 7.93,
+      "end": 12.94,
+      "source_file": "2-42101-A-43.wav",
+      "role": "foreground_repeat"
+    },
+    {
+      "event_id": "e4",
+      "label": "thunderstorm",
+      "start": 9.52,
+      "end": 14.52,
+      "source_file": "2-39443-B-19.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e5",
+      "label": "water_drops",
+      "start": 16.13,
+      "end": 21.13,
+      "source_file": "1-23094-B-15.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e6",
+      "label": "thunderstorm",
+      "start": 22.06,
+      "end": 27.06,
+      "source_file": "2-39945-A-19.wav",
+      "role": "foreground"
+    }
+  ],
+  "hidden_reasoning": {
+    "environment": "rainy_stormy",
+    "reference_basis": "Rain and wind provide evidence of outdoor weather, while thunderstorm sounds are consistent with stormy conditions."
+  }
+}

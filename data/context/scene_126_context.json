@@ -1,0 +1,398 @@
+{
+  "audio": {
+    "file": "scene_126.wav",
+    "duration": 30.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "engine",
+      "start": 1.92,
+      "end": 7.68,
+      "duration": 5.76,
+      "confidence": 0.977,
+      "source_frames": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "siren",
+      "start": 7.2,
+      "end": 10.56,
+      "duration": 3.36,
+      "confidence": 1.0,
+      "source_frames": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "engine",
+      "start": 17.28,
+      "end": 24.0,
+      "duration": 6.72,
+      "confidence": 0.832,
+      "source_frames": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "label": "siren",
+      "start": 17.76,
+      "end": 18.72,
+      "duration": 0.96,
+      "confidence": 0.817,
+      "source_frames": [
+        37
+      ]
+    },
+    {
+      "event_id": "event_005",
+      "label": "footsteps",
+      "start": 23.52,
+      "end": 24.48,
+      "duration": 0.96,
+      "confidence": 0.51,
+      "source_frames": [
+        49
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 4,
+      "start": 1.92,
+      "end": 2.88,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.768
+        }
+      ]
+    },
+    {
+      "frame_index": 5,
+      "start": 2.4,
+      "end": 3.36,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.965
+        }
+      ]
+    },
+    {
+      "frame_index": 6,
+      "start": 2.88,
+      "end": 3.84,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "frame_index": 7,
+      "start": 3.36,
+      "end": 4.32,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.967
+        }
+      ]
+    },
+    {
+      "frame_index": 8,
+      "start": 3.84,
+      "end": 4.8,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.956
+        }
+      ]
+    },
+    {
+      "frame_index": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.977
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.903
+        }
+      ]
+    },
+    {
+      "frame_index": 11,
+      "start": 5.28,
+      "end": 6.24,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.891
+        }
+      ]
+    },
+    {
+      "frame_index": 12,
+      "start": 5.76,
+      "end": 6.72,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.879
+        }
+      ]
+    },
+    {
+      "frame_index": 13,
+      "start": 6.24,
+      "end": 7.2,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.852
+        }
+      ]
+    },
+    {
+      "frame_index": 14,
+      "start": 6.72,
+      "end": 7.68,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.464
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "start": 7.2,
+      "end": 8.16,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.534
+        }
+      ]
+    },
+    {
+      "frame_index": 16,
+      "start": 7.68,
+      "end": 8.64,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.991
+        }
+      ]
+    },
+    {
+      "frame_index": 17,
+      "start": 8.16,
+      "end": 9.12,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "frame_index": 18,
+      "start": 8.64,
+      "end": 9.6,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "frame_index": 19,
+      "start": 9.12,
+      "end": 10.08,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.997
+        }
+      ]
+    },
+    {
+      "frame_index": 20,
+      "start": 9.6,
+      "end": 10.56,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.404
+        }
+      ]
+    },
+    {
+      "frame_index": 36,
+      "start": 17.28,
+      "end": 18.24,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.808
+        }
+      ]
+    },
+    {
+      "frame_index": 37,
+      "start": 17.76,
+      "end": 18.72,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.817
+        }
+      ]
+    },
+    {
+      "frame_index": 40,
+      "start": 19.2,
+      "end": 20.16,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.319
+        }
+      ]
+    },
+    {
+      "frame_index": 43,
+      "start": 20.64,
+      "end": 21.6,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.601
+        }
+      ]
+    },
+    {
+      "frame_index": 44,
+      "start": 21.12,
+      "end": 22.08,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.705
+        }
+      ]
+    },
+    {
+      "frame_index": 45,
+      "start": 21.6,
+      "end": 22.56,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.832
+        }
+      ]
+    },
+    {
+      "frame_index": 46,
+      "start": 22.08,
+      "end": 23.04,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.78
+        }
+      ]
+    },
+    {
+      "frame_index": 47,
+      "start": 22.56,
+      "end": 23.52,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.676
+        }
+      ]
+    },
+    {
+      "frame_index": 48,
+      "start": 23.04,
+      "end": 24.0,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.483
+        }
+      ]
+    },
+    {
+      "frame_index": 49,
+      "start": 23.52,
+      "end": 24.48,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.51
+        }
+      ]
+    }
+  ]
+}

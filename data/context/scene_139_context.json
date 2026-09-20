@@ -1,0 +1,255 @@
+{
+  "audio": {
+    "file": "scene_139.wav",
+    "duration": 28.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "laughing",
+      "start": 1.92,
+      "end": 5.76,
+      "duration": 3.84,
+      "confidence": 0.971,
+      "source_frames": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "clock_tick",
+      "start": 8.16,
+      "end": 9.6,
+      "duration": 1.44,
+      "confidence": 0.805,
+      "source_frames": [
+        17,
+        18
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "laughing",
+      "start": 16.8,
+      "end": 22.08,
+      "duration": 5.28,
+      "confidence": 0.975,
+      "source_frames": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 4,
+      "start": 1.92,
+      "end": 2.88,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.467
+        }
+      ]
+    },
+    {
+      "frame_index": 5,
+      "start": 2.4,
+      "end": 3.36,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.971
+        }
+      ]
+    },
+    {
+      "frame_index": 6,
+      "start": 2.88,
+      "end": 3.84,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.903
+        }
+      ]
+    },
+    {
+      "frame_index": 7,
+      "start": 3.36,
+      "end": 4.32,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.879
+        }
+      ]
+    },
+    {
+      "frame_index": 8,
+      "start": 3.84,
+      "end": 4.8,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.69
+        }
+      ]
+    },
+    {
+      "frame_index": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.757
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.79
+        }
+      ]
+    },
+    {
+      "frame_index": 17,
+      "start": 8.16,
+      "end": 9.12,
+      "labels": [
+        {
+          "label": "clock_tick",
+          "confidence": 0.805
+        }
+      ]
+    },
+    {
+      "frame_index": 18,
+      "start": 8.64,
+      "end": 9.6,
+      "labels": [
+        {
+          "label": "clock_tick",
+          "confidence": 0.394
+        }
+      ]
+    },
+    {
+      "frame_index": 35,
+      "start": 16.8,
+      "end": 17.76,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.766
+        }
+      ]
+    },
+    {
+      "frame_index": 36,
+      "start": 17.28,
+      "end": 18.24,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.975
+        }
+      ]
+    },
+    {
+      "frame_index": 37,
+      "start": 17.76,
+      "end": 18.72,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.929
+        }
+      ]
+    },
+    {
+      "frame_index": 38,
+      "start": 18.24,
+      "end": 19.2,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.864
+        }
+      ]
+    },
+    {
+      "frame_index": 41,
+      "start": 19.68,
+      "end": 20.64,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.745
+        }
+      ]
+    },
+    {
+      "frame_index": 42,
+      "start": 20.16,
+      "end": 21.12,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.758
+        }
+      ]
+    },
+    {
+      "frame_index": 43,
+      "start": 20.64,
+      "end": 21.6,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.91
+        }
+      ]
+    },
+    {
+      "frame_index": 44,
+      "start": 21.12,
+      "end": 22.08,
+      "labels": [
+        {
+          "label": "laughing",
+          "confidence": 0.868
+        }
+      ]
+    }
+  ]
+}

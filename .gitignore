@@ -1,0 +1,29 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated audio
+data/scenes/
+ESC-50-master/audio/
+
+# Local datasets
+ESC-50-master/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

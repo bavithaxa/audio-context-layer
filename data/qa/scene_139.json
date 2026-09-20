@@ -1,0 +1,100 @@
+[
+  {
+    "qa_id": "scene_139_q01",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "clock tick, door wood knock, laughing",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_139_q02",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate laughing events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "e1",
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_139_q03",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the door wood knock or the laughing?",
+    "answer": "door wood knock",
+    "evidence_event_ids": [
+      "e3",
+      "e4"
+    ]
+  },
+  {
+    "qa_id": "scene_139_q04",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a chirping birds sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": []
+  },
+  {
+    "qa_id": "scene_139_q05",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the clock tick or the door wood knock?",
+    "answer": "door wood knock",
+    "evidence_event_ids": [
+      "e2",
+      "e3"
+    ]
+  },
+  {
+    "qa_id": "scene_139_q06",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the laughing event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "e1"
+    ]
+  },
+  {
+    "qa_id": "scene_139_q07",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An indoor room environment is suggested. Clock ticking, keyboard typing and mouse clicks are sounds consistent with an indoor room.",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_139_q08",
+    "scene_id": "scene_139",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "laughing",
+    "evidence_event_ids": [
+      "e5"
+    ]
+  }
+]

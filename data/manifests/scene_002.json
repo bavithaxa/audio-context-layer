@@ -1,0 +1,61 @@
+{
+  "scene_id": "scene_002",
+  "split": "train",
+  "scene_type": "farm_rural",
+  "duration": 28,
+  "seed": 42,
+  "events": [
+    {
+      "event_id": "e1",
+      "label": "wind",
+      "start": 1.8,
+      "end": 6.8,
+      "source_file": "2-109374-A-16.wav",
+      "role": "background"
+    },
+    {
+      "event_id": "e2",
+      "label": "cow",
+      "start": 4.04,
+      "end": 9.04,
+      "source_file": "2-103428-A-3.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e3",
+      "label": "cow",
+      "start": 6.23,
+      "end": 11.23,
+      "source_file": "3-160993-A-3.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e4",
+      "label": "sheep",
+      "start": 8.05,
+      "end": 13.05,
+      "source_file": "2-119161-A-8.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e5",
+      "label": "hen",
+      "start": 12.15,
+      "end": 17.15,
+      "source_file": "2-120586-A-6.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e6",
+      "label": "cow",
+      "start": 12.76,
+      "end": 17.76,
+      "source_file": "2-103427-A-3.wav",
+      "role": "foreground_repeat"
+    }
+  ],
+  "hidden_reasoning": {
+    "environment": "farm_rural",
+    "reference_basis": "Animal sounds such as cows, sheep, hens and roosters provide evidence consistent with a farm or rural environment."
+  }
+}

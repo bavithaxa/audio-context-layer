@@ -1,0 +1,61 @@
+{
+  "scene_id": "scene_087",
+  "split": "train",
+  "scene_type": "indoor_room",
+  "duration": 30,
+  "seed": 42,
+  "events": [
+    {
+      "event_id": "e1",
+      "label": "clock_tick",
+      "start": 0.43,
+      "end": 5.43,
+      "source_file": "3-170377-A-38.wav",
+      "role": "background"
+    },
+    {
+      "event_id": "e2",
+      "label": "laughing",
+      "start": 5.93,
+      "end": 10.93,
+      "source_file": "2-60791-A-26.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e3",
+      "label": "door_wood_knock",
+      "start": 9.26,
+      "end": 14.26,
+      "source_file": "3-182025-A-30.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e4",
+      "label": "keyboard_typing",
+      "start": 11.8,
+      "end": 16.8,
+      "source_file": "1-62594-A-32.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e5",
+      "label": "keyboard_typing",
+      "start": 20.09,
+      "end": 25.09,
+      "source_file": "3-155568-A-32.wav",
+      "role": "foreground_repeat"
+    },
+    {
+      "event_id": "e6",
+      "label": "laughing",
+      "start": 23.23,
+      "end": 28.23,
+      "source_file": "2-60795-A-26.wav",
+      "role": "foreground"
+    }
+  ],
+  "hidden_reasoning": {
+    "environment": "indoor_room",
+    "reference_basis": "Clock ticking, keyboard typing and mouse clicks are sounds consistent with an indoor room."
+  }
+}

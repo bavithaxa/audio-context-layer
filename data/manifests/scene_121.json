@@ -1,0 +1,53 @@
+{
+  "scene_id": "scene_121",
+  "split": "validation",
+  "scene_type": "farm_rural",
+  "duration": 25,
+  "seed": 42,
+  "events": [
+    {
+      "event_id": "e1",
+      "label": "wind",
+      "start": 1.12,
+      "end": 6.12,
+      "source_file": "4-144083-B-16.wav",
+      "role": "background"
+    },
+    {
+      "event_id": "e2",
+      "label": "sheep",
+      "start": 2.66,
+      "end": 7.66,
+      "source_file": "4-188703-D-8.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e3",
+      "label": "sheep",
+      "start": 2.72,
+      "end": 7.72,
+      "source_file": "4-188703-A-8.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e4",
+      "label": "cow",
+      "start": 5.5,
+      "end": 10.5,
+      "source_file": "4-174860-A-3.wav",
+      "role": "foreground_repeat"
+    },
+    {
+      "event_id": "e5",
+      "label": "hen",
+      "start": 11.82,
+      "end": 16.82,
+      "source_file": "4-253649-A-6.wav",
+      "role": "foreground"
+    }
+  ],
+  "hidden_reasoning": {
+    "environment": "farm_rural",
+    "reference_basis": "Animal sounds such as cows, sheep, hens and roosters provide evidence consistent with a farm or rural environment."
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "audio": {
+    "file": "scene_137.wav",
+    "duration": 25.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "engine",
+      "start": 2.4,
+      "end": 3.84,
+      "duration": 1.44,
+      "confidence": 0.736,
+      "source_frames": [
+        5,
+        6
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "siren",
+      "start": 3.36,
+      "end": 4.32,
+      "duration": 0.96,
+      "confidence": 0.578,
+      "source_frames": [
+        7
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "chirping_birds",
+      "start": 4.32,
+      "end": 5.28,
+      "duration": 0.96,
+      "confidence": 0.321,
+      "source_frames": [
+        9
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "label": "hen",
+      "start": 4.32,
+      "end": 16.8,
+      "duration": 12.48,
+      "confidence": 0.99,
+      "source_frames": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "event_id": "event_005",
+      "label": "rooster",
+      "start": 4.32,
+      "end": 16.8,
+      "duration": 12.48,
+      "confidence": 0.99,
+      "source_frames": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "event_id": "event_006",
+      "label": "crow",
+      "start": 16.8,
+      "end": 18.24,
+      "duration": 1.44,
+      "confidence": 0.992,
+      "source_frames": [
+        35,
+        36
+      ]
+    },
+    {
+      "event_id": "event_007",
+      "label": "chirping_birds",
+      "start": 17.28,
+      "end": 18.24,
+      "duration": 0.96,
+      "confidence": 0.963,
+      "source_frames": [
+        36
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 5,
+      "start": 2.4,
+      "end": 3.36,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.736
+        }
+      ]
+    },
+    {
+      "frame_index": 6,
+      "start": 2.88,
+      "end": 3.84,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.58
+        }
+      ]
+    },
+    {
+      "frame_index": 7,
+      "start": 3.36,
+      "end": 4.32,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.578
+        }
+      ]
+    },
+    {
+      "frame_index": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.321
+        },
+        {
+          "label": "hen",
+          "confidence": 0.927
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.927
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.93
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.93
+        }
+      ]
+    },
+    {
+      "frame_index": 11,
+      "start": 5.28,
+      "end": 6.24,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.519
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.519
+        }
+      ]
+    },
+    {
+      "frame_index": 12,
+      "start": 5.76,
+      "end": 6.72,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.901
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.901
+        }
+      ]
+    },
+    {
+      "frame_index": 13,
+      "start": 6.24,
+      "end": 7.2,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.636
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.636
+        }
+      ]
+    },
+    {
+      "frame_index": 14,
+      "start": 6.72,
+      "end": 7.68,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.976
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.976
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "start": 7.2,
+      "end": 8.16,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.899
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.899
+        }
+      ]
+    },
+    {
+      "frame_index": 16,
+      "start": 7.68,
+      "end": 8.64,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.931
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.931
+        }
+      ]
+    },
+    {
+      "frame_index": 17,
+      "start": 8.16,
+      "end": 9.12,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.984
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.984
+        }
+      ]
+    },
+    {
+      "frame_index": 18,
+      "start": 8.64,
+      "end": 9.6,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.984
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.984
+        }
+      ]
+    },
+    {
+      "frame_index": 19,
+      "start": 9.12,
+      "end": 10.08,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.99
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "frame_index": 20,
+      "start": 9.6,
+      "end": 10.56,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.982
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.982
+        }
+      ]
+    },
+    {
+      "frame_index": 21,
+      "start": 10.08,
+      "end": 11.04,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.911
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.911
+        }
+      ]
+    },
+    {
+      "frame_index": 26,
+      "start": 12.48,
+      "end": 13.44,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.98
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "frame_index": 27,
+      "start": 12.96,
+      "end": 13.92,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.985
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.985
+        }
+      ]
+    },
+    {
+      "frame_index": 28,
+      "start": 13.44,
+      "end": 14.4,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.986
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.986
+        }
+      ]
+    },
+    {
+      "frame_index": 29,
+      "start": 13.92,
+      "end": 14.88,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.969
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.969
+        }
+      ]
+    },
+    {
+      "frame_index": 31,
+      "start": 14.88,
+      "end": 15.84,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.713
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.713
+        }
+      ]
+    },
+    {
+      "frame_index": 32,
+      "start": 15.36,
+      "end": 16.32,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.945
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.945
+        }
+      ]
+    },
+    {
+      "frame_index": 33,
+      "start": 15.84,
+      "end": 16.8,
+      "labels": [
+        {
+          "label": "hen",
+          "confidence": 0.521
+        },
+        {
+          "label": "rooster",
+          "confidence": 0.521
+        }
+      ]
+    },
+    {
+      "frame_index": 35,
+      "start": 16.8,
+      "end": 17.76,
+      "labels": [
+        {
+          "label": "crow",
+          "confidence": 0.605
+        }
+      ]
+    },
+    {
+      "frame_index": 36,
+      "start": 17.28,
+      "end": 18.24,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.963
+        },
+        {
+          "label": "crow",
+          "confidence": 0.992
+        }
+      ]
+    }
+  ]
+}

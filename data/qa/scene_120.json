@@ -1,0 +1,106 @@
+[
+  {
+    "qa_id": "scene_120_q01",
+    "scene_id": "scene_120",
+    "split": "validation",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "clock tick, door wood knock, keyboard typing, mouse click",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_120_q02",
+    "scene_id": "scene_120",
+    "split": "validation",
+    "question_type": "counting",
+    "question": "How many separate door wood knock events occur in the scene?",
+    "answer": "3",
+    "evidence_event_ids": [
+      "e2",
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_120_q03",
+    "scene_id": "scene_120",
+    "split": "validation",
+    "question_type": "temporal",
+    "question": "Which occurred first, the clock tick or the mouse click?",
+    "answer": "clock tick",
+    "evidence_event_ids": [
+      "e1",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_120_q04",
+    "scene_id": "scene_120",
+    "split": "validation",
+    "question_type": "yes_no",
+    "question": "Is there a door wood knock sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "e2",
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_120_q05",
+    "scene_id": "scene_120",
+    "split": "validation",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the keyboard typing or the door wood knock?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "e3",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_120_q06",
+    "scene_id": "scene_120",
+    "split": "validation",
+    "question_type": "duration",
+    "question": "Approximately how long does the mouse click event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_120_q07",
+    "scene_id": "scene_120",
+    "split": "validation",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An indoor room environment is suggested. Clock ticking, keyboard typing and mouse clicks are sounds consistent with an indoor room.",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_120_q08",
+    "scene_id": "scene_120",
+    "split": "validation",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "mouse click",
+    "evidence_event_ids": [
+      "e6"
+    ]
+  }
+]

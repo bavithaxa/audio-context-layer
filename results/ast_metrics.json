@@ -1,0 +1,378 @@
+{
+  "model": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "sample_rate": 16000,
+  "window_seconds": 5.0,
+  "threshold": 0.3,
+  "test_windows": 248,
+  "target_classes": [
+    "car_horn",
+    "chirping_birds",
+    "clock_tick",
+    "cow",
+    "crow",
+    "dog",
+    "door_wood_knock",
+    "engine",
+    "footsteps",
+    "hen",
+    "keyboard_typing",
+    "laughing",
+    "mouse_click",
+    "rain",
+    "rooster",
+    "sheep",
+    "siren",
+    "thunderstorm",
+    "water_drops",
+    "wind"
+  ],
+  "micro": {
+    "precision": 0.8089171974522293,
+    "recall": 0.28348214285714285,
+    "f1": 0.41983471074380163
+  },
+  "macro": {
+    "precision": 0.7268057099269913,
+    "recall": 0.29764690018653434,
+    "f1": 0.3773093346134429
+  },
+  "per_class": [
+    {
+      "class": "car_horn",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 29
+    },
+    {
+      "class": "chirping_birds",
+      "precision": 1.0,
+      "recall": 0.08,
+      "f1": 0.14814814814814814,
+      "support": 25
+    },
+    {
+      "class": "clock_tick",
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333333333333333,
+      "support": 10
+    },
+    {
+      "class": "cow",
+      "precision": 1.0,
+      "recall": 0.2727272727272727,
+      "f1": 0.42857142857142855,
+      "support": 22
+    },
+    {
+      "class": "crow",
+      "precision": 0.96,
+      "recall": 0.5853658536585366,
+      "f1": 0.7272727272727273,
+      "support": 41
+    },
+    {
+      "class": "dog",
+      "precision": 1.0,
+      "recall": 0.24242424242424243,
+      "f1": 0.3902439024390244,
+      "support": 33
+    },
+    {
+      "class": "door_wood_knock",
+      "precision": 1.0,
+      "recall": 0.6470588235294118,
+      "f1": 0.7857142857142857,
+      "support": 17
+    },
+    {
+      "class": "engine",
+      "precision": 0.6086956521739131,
+      "recall": 0.4375,
+      "f1": 0.509090909090909,
+      "support": 32
+    },
+    {
+      "class": "footsteps",
+      "precision": 1.0,
+      "recall": 0.0196078431372549,
+      "f1": 0.038461538461538464,
+      "support": 51
+    },
+    {
+      "class": "hen",
+      "precision": 0.631578947368421,
+      "recall": 0.5,
+      "f1": 0.5581395348837209,
+      "support": 24
+    },
+    {
+      "class": "keyboard_typing",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    {
+      "class": "laughing",
+      "precision": 1.0,
+      "recall": 0.1111111111111111,
+      "f1": 0.2,
+      "support": 9
+    },
+    {
+      "class": "mouse_click",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    {
+      "class": "rain",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "support": 10
+    },
+    {
+      "class": "rooster",
+      "precision": 0.5263157894736842,
+      "recall": 0.7692307692307693,
+      "f1": 0.625,
+      "support": 13
+    },
+    {
+      "class": "sheep",
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "support": 16
+    },
+    {
+      "class": "siren",
+      "precision": 0.8095238095238095,
+      "recall": 0.6071428571428571,
+      "f1": 0.6938775510204082,
+      "support": 28
+    },
+    {
+      "class": "thunderstorm",
+      "precision": 1.0,
+      "recall": 0.23076923076923078,
+      "f1": 0.375,
+      "support": 13
+    },
+    {
+      "class": "water_drops",
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "support": 12
+    },
+    {
+      "class": "wind",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 57
+    }
+  ],
+  "label_mapping": {
+    "car_horn": [
+      {
+        "label": "Honk",
+        "index": 107
+      }
+    ],
+    "chirping_birds": [
+      {
+        "label": "Chirp, tweet",
+        "index": 113
+      },
+      {
+        "label": "Bird",
+        "index": 111
+      },
+      {
+        "label": "Bird vocalization, bird call, bird song",
+        "index": 112
+      }
+    ],
+    "clock_tick": [
+      {
+        "label": "Tick",
+        "index": 407
+      },
+      {
+        "label": "Tick-tock",
+        "index": 408
+      },
+      {
+        "label": "Clock",
+        "index": 406
+      }
+    ],
+    "cow": [
+      {
+        "label": "Moo",
+        "index": 91
+      }
+    ],
+    "crow": [
+      {
+        "label": "Crow",
+        "index": 117
+      },
+      {
+        "label": "Caw",
+        "index": 118
+      }
+    ],
+    "dog": [
+      {
+        "label": "Dog",
+        "index": 74
+      },
+      {
+        "label": "Bark",
+        "index": 75
+      },
+      {
+        "label": "Bow-wow",
+        "index": 78
+      },
+      {
+        "label": "Whimper (dog)",
+        "index": 80
+      },
+      {
+        "label": "Yip",
+        "index": 76
+      }
+    ],
+    "door_wood_knock": [
+      {
+        "label": "Knock",
+        "index": 359
+      },
+      {
+        "label": "Door",
+        "index": 354
+      },
+      {
+        "label": "Wood",
+        "index": 437
+      }
+    ],
+    "engine": [
+      {
+        "label": "Engine",
+        "index": 343
+      },
+      {
+        "label": "Idling",
+        "index": 352
+      },
+      {
+        "label": "Vehicle",
+        "index": 300
+      }
+    ],
+    "footsteps": [
+      {
+        "label": "Walk, footsteps",
+        "index": 53
+      }
+    ],
+    "hen": [
+      {
+        "label": "Chicken, rooster",
+        "index": 99
+      },
+      {
+        "label": "Cluck",
+        "index": 100
+      }
+    ],
+    "keyboard_typing": [
+      {
+        "label": "Typing",
+        "index": 384
+      },
+      {
+        "label": "Computer keyboard",
+        "index": 386
+      }
+    ],
+    "laughing": [
+      {
+        "label": "Laughter",
+        "index": 16
+      }
+    ],
+    "mouse_click": [],
+    "rain": [
+      {
+        "label": "Rain",
+        "index": 289
+      },
+      {
+        "label": "Raindrop",
+        "index": 290
+      }
+    ],
+    "rooster": [
+      {
+        "label": "Chicken, rooster",
+        "index": 99
+      }
+    ],
+    "sheep": [
+      {
+        "label": "Sheep",
+        "index": 97
+      },
+      {
+        "label": "Bleat",
+        "index": 96
+      }
+    ],
+    "siren": [
+      {
+        "label": "Siren",
+        "index": 396
+      }
+    ],
+    "thunderstorm": [
+      {
+        "label": "Thunderstorm",
+        "index": 286
+      },
+      {
+        "label": "Thunder",
+        "index": 287
+      }
+    ],
+    "water_drops": [
+      {
+        "label": "Drip",
+        "index": 448
+      },
+      {
+        "label": "Raindrop",
+        "index": 290
+      },
+      {
+        "label": "Water",
+        "index": 288
+      }
+    ],
+    "wind": [
+      {
+        "label": "Wind",
+        "index": 283
+      }
+    ]
+  }
+}

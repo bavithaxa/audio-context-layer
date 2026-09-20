@@ -1,0 +1,104 @@
+[
+  {
+    "qa_id": "scene_123_q01",
+    "scene_id": "scene_123",
+    "split": "validation",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "car horn, footsteps, rain, thunderstorm, wind",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_123_q02",
+    "scene_id": "scene_123",
+    "split": "validation",
+    "question_type": "counting",
+    "question": "How many separate car horn events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_123_q03",
+    "scene_id": "scene_123",
+    "split": "validation",
+    "question_type": "temporal",
+    "question": "Which occurred first, the footsteps or the thunderstorm?",
+    "answer": "footsteps",
+    "evidence_event_ids": [
+      "e2",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_123_q04",
+    "scene_id": "scene_123",
+    "split": "validation",
+    "question_type": "yes_no",
+    "question": "Is there a car horn sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_123_q05",
+    "scene_id": "scene_123",
+    "split": "validation",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the footsteps or the wind?",
+    "answer": "wind",
+    "evidence_event_ids": [
+      "e2",
+      "e1"
+    ]
+  },
+  {
+    "qa_id": "scene_123_q06",
+    "scene_id": "scene_123",
+    "split": "validation",
+    "question_type": "duration",
+    "question": "Approximately how long does the car horn event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_123_q07",
+    "scene_id": "scene_123",
+    "split": "validation",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A rainy stormy environment is suggested. Rain and wind provide evidence of outdoor weather, while thunderstorm sounds are consistent with stormy conditions.",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_123_q08",
+    "scene_id": "scene_123",
+    "split": "validation",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "thunderstorm",
+    "evidence_event_ids": [
+      "e6"
+    ]
+  }
+]

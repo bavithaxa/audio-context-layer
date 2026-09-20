@@ -1,0 +1,101 @@
+[
+  {
+    "qa_id": "scene_126_q01",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "engine, footsteps, siren",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_126_q02",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "counting",
+    "question": "How many separate engine events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "e1",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_126_q03",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "Which occurred first, the engine or the footsteps?",
+    "answer": "engine",
+    "evidence_event_ids": [
+      "e1",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_126_q04",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "yes_no",
+    "question": "Is there a dog sound in the scene?",
+    "answer": "no",
+    "evidence_event_ids": []
+  },
+  {
+    "qa_id": "scene_126_q05",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the footsteps or the engine?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "e6",
+      "e1"
+    ]
+  },
+  {
+    "qa_id": "scene_126_q06",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "duration",
+    "question": "Approximately how long does the siren event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "e4"
+    ]
+  },
+  {
+    "qa_id": "scene_126_q07",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "A traffic roadside environment is suggested. Engine sounds, car horns and sirens provide evidence consistent with a road or traffic environment.",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_126_q08",
+    "scene_id": "scene_126",
+    "split": "test",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "footsteps",
+    "evidence_event_ids": [
+      "e6"
+    ]
+  }
+]

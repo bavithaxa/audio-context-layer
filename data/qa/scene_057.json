@@ -1,0 +1,104 @@
+[
+  {
+    "qa_id": "scene_057_q01",
+    "scene_id": "scene_057",
+    "split": "train",
+    "question_type": "apparent",
+    "question": "What distinct sounds are present in the audio scene?",
+    "answer": "clock tick, door wood knock, footsteps, keyboard typing",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_057_q02",
+    "scene_id": "scene_057",
+    "split": "train",
+    "question_type": "counting",
+    "question": "How many separate footsteps events occur in the scene?",
+    "answer": "2",
+    "evidence_event_ids": [
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_057_q03",
+    "scene_id": "scene_057",
+    "split": "train",
+    "question_type": "temporal",
+    "question": "Which occurred first, the clock tick or the door wood knock?",
+    "answer": "clock tick",
+    "evidence_event_ids": [
+      "e1",
+      "e3"
+    ]
+  },
+  {
+    "qa_id": "scene_057_q04",
+    "scene_id": "scene_057",
+    "split": "train",
+    "question_type": "yes_no",
+    "question": "Is there a footsteps sound in the scene?",
+    "answer": "yes",
+    "evidence_event_ids": [
+      "e4",
+      "e5"
+    ]
+  },
+  {
+    "qa_id": "scene_057_q05",
+    "scene_id": "scene_057",
+    "split": "train",
+    "question_type": "comparison",
+    "question": "Which lasted longer, the keyboard typing or the door wood knock?",
+    "answer": "They lasted the same amount of time.",
+    "evidence_event_ids": [
+      "e2",
+      "e3"
+    ]
+  },
+  {
+    "qa_id": "scene_057_q06",
+    "scene_id": "scene_057",
+    "split": "train",
+    "question_type": "duration",
+    "question": "Approximately how long does the clock tick event last?",
+    "answer": "5.0 seconds",
+    "evidence_event_ids": [
+      "e1"
+    ]
+  },
+  {
+    "qa_id": "scene_057_q07",
+    "scene_id": "scene_057",
+    "split": "train",
+    "question_type": "causal_reasoning",
+    "question": "What type of environment is suggested by the sounds, and what evidence supports this?",
+    "answer": "An indoor room environment is suggested. Clock ticking, keyboard typing and mouse clicks are sounds consistent with an indoor room.",
+    "evidence_event_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6"
+    ]
+  },
+  {
+    "qa_id": "scene_057_q08",
+    "scene_id": "scene_057",
+    "split": "train",
+    "question_type": "temporal",
+    "question": "What sound occurs last in the scene?",
+    "answer": "keyboard typing",
+    "evidence_event_ids": [
+      "e6"
+    ]
+  }
+]

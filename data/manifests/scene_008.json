@@ -1,0 +1,61 @@
+{
+  "scene_id": "scene_008",
+  "split": "train",
+  "scene_type": "traffic_roadside",
+  "duration": 22,
+  "seed": 42,
+  "events": [
+    {
+      "event_id": "e1",
+      "label": "siren",
+      "start": 3.5,
+      "end": 8.5,
+      "source_file": "2-70936-A-42.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e2",
+      "label": "engine",
+      "start": 3.72,
+      "end": 8.72,
+      "source_file": "1-18527-A-44.wav",
+      "role": "background"
+    },
+    {
+      "event_id": "e3",
+      "label": "siren",
+      "start": 9.32,
+      "end": 14.32,
+      "source_file": "1-76831-A-42.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e4",
+      "label": "siren",
+      "start": 9.84,
+      "end": 14.84,
+      "source_file": "3-51731-B-42.wav",
+      "role": "foreground"
+    },
+    {
+      "event_id": "e5",
+      "label": "car_horn",
+      "start": 10.81,
+      "end": 15.81,
+      "source_file": "2-128465-A-43.wav",
+      "role": "foreground_repeat"
+    },
+    {
+      "event_id": "e6",
+      "label": "footsteps",
+      "start": 14.79,
+      "end": 19.79,
+      "source_file": "3-249913-A-25.wav",
+      "role": "foreground"
+    }
+  ],
+  "hidden_reasoning": {
+    "environment": "traffic_roadside",
+    "reference_basis": "Engine sounds, car horns and sirens provide evidence consistent with a road or traffic environment."
+  }
+}

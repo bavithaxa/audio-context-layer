@@ -1,0 +1,284 @@
+{
+  "audio": {
+    "file": "scene_143.wav",
+    "duration": 20.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "engine",
+      "start": 1.92,
+      "end": 3.84,
+      "duration": 1.92,
+      "confidence": 0.551,
+      "source_frames": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "rain",
+      "start": 4.32,
+      "end": 5.28,
+      "duration": 0.96,
+      "confidence": 0.728,
+      "source_frames": [
+        9
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "water_drops",
+      "start": 4.32,
+      "end": 9.12,
+      "duration": 4.8,
+      "confidence": 0.845,
+      "source_frames": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "label": "engine",
+      "start": 9.6,
+      "end": 14.88,
+      "duration": 5.28,
+      "confidence": 0.784,
+      "source_frames": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 4,
+      "start": 1.92,
+      "end": 2.88,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.465
+        }
+      ]
+    },
+    {
+      "frame_index": 5,
+      "start": 2.4,
+      "end": 3.36,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.551
+        }
+      ]
+    },
+    {
+      "frame_index": 6,
+      "start": 2.88,
+      "end": 3.84,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.333
+        }
+      ]
+    },
+    {
+      "frame_index": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "labels": [
+        {
+          "label": "rain",
+          "confidence": 0.728
+        },
+        {
+          "label": "water_drops",
+          "confidence": 0.845
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "labels": [
+        {
+          "label": "water_drops",
+          "confidence": 0.719
+        }
+      ]
+    },
+    {
+      "frame_index": 11,
+      "start": 5.28,
+      "end": 6.24,
+      "labels": [
+        {
+          "label": "water_drops",
+          "confidence": 0.434
+        }
+      ]
+    },
+    {
+      "frame_index": 12,
+      "start": 5.76,
+      "end": 6.72,
+      "labels": [
+        {
+          "label": "water_drops",
+          "confidence": 0.717
+        }
+      ]
+    },
+    {
+      "frame_index": 13,
+      "start": 6.24,
+      "end": 7.2,
+      "labels": [
+        {
+          "label": "water_drops",
+          "confidence": 0.673
+        }
+      ]
+    },
+    {
+      "frame_index": 14,
+      "start": 6.72,
+      "end": 7.68,
+      "labels": [
+        {
+          "label": "water_drops",
+          "confidence": 0.375
+        }
+      ]
+    },
+    {
+      "frame_index": 16,
+      "start": 7.68,
+      "end": 8.64,
+      "labels": [
+        {
+          "label": "water_drops",
+          "confidence": 0.487
+        }
+      ]
+    },
+    {
+      "frame_index": 17,
+      "start": 8.16,
+      "end": 9.12,
+      "labels": [
+        {
+          "label": "water_drops",
+          "confidence": 0.377
+        }
+      ]
+    },
+    {
+      "frame_index": 20,
+      "start": 9.6,
+      "end": 10.56,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.624
+        }
+      ]
+    },
+    {
+      "frame_index": 21,
+      "start": 10.08,
+      "end": 11.04,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.784
+        }
+      ]
+    },
+    {
+      "frame_index": 22,
+      "start": 10.56,
+      "end": 11.52,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.596
+        }
+      ]
+    },
+    {
+      "frame_index": 24,
+      "start": 11.52,
+      "end": 12.48,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.561
+        }
+      ]
+    },
+    {
+      "frame_index": 27,
+      "start": 12.96,
+      "end": 13.92,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.621
+        }
+      ]
+    },
+    {
+      "frame_index": 28,
+      "start": 13.44,
+      "end": 14.4,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.649
+        }
+      ]
+    },
+    {
+      "frame_index": 29,
+      "start": 13.92,
+      "end": 14.88,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.467
+        }
+      ]
+    }
+  ]
+}

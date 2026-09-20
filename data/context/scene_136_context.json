@@ -1,0 +1,258 @@
+{
+  "audio": {
+    "file": "scene_136.wav",
+    "duration": 22.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "engine",
+      "start": 3.36,
+      "end": 4.8,
+      "duration": 1.44,
+      "confidence": 0.731,
+      "source_frames": [
+        7,
+        8
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "siren",
+      "start": 6.72,
+      "end": 8.64,
+      "duration": 1.92,
+      "confidence": 0.878,
+      "source_frames": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "chirping_birds",
+      "start": 9.12,
+      "end": 10.08,
+      "duration": 0.96,
+      "confidence": 0.466,
+      "source_frames": [
+        19
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "label": "footsteps",
+      "start": 12.0,
+      "end": 12.96,
+      "duration": 0.96,
+      "confidence": 0.826,
+      "source_frames": [
+        25
+      ]
+    },
+    {
+      "event_id": "event_005",
+      "label": "dog",
+      "start": 12.48,
+      "end": 15.84,
+      "duration": 3.36,
+      "confidence": 0.715,
+      "source_frames": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "event_id": "event_006",
+      "label": "engine",
+      "start": 16.32,
+      "end": 17.28,
+      "duration": 0.96,
+      "confidence": 0.307,
+      "source_frames": [
+        34
+      ]
+    },
+    {
+      "event_id": "event_007",
+      "label": "footsteps",
+      "start": 17.28,
+      "end": 18.24,
+      "duration": 0.96,
+      "confidence": 0.33,
+      "source_frames": [
+        36
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 7,
+      "start": 3.36,
+      "end": 4.32,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.665
+        }
+      ]
+    },
+    {
+      "frame_index": 8,
+      "start": 3.84,
+      "end": 4.8,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.731
+        }
+      ]
+    },
+    {
+      "frame_index": 14,
+      "start": 6.72,
+      "end": 7.68,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.706
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "start": 7.2,
+      "end": 8.16,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.632
+        }
+      ]
+    },
+    {
+      "frame_index": 16,
+      "start": 7.68,
+      "end": 8.64,
+      "labels": [
+        {
+          "label": "siren",
+          "confidence": 0.878
+        }
+      ]
+    },
+    {
+      "frame_index": 19,
+      "start": 9.12,
+      "end": 10.08,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.466
+        }
+      ]
+    },
+    {
+      "frame_index": 25,
+      "start": 12.0,
+      "end": 12.96,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.826
+        }
+      ]
+    },
+    {
+      "frame_index": 26,
+      "start": 12.48,
+      "end": 13.44,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.51
+        }
+      ]
+    },
+    {
+      "frame_index": 27,
+      "start": 12.96,
+      "end": 13.92,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.539
+        }
+      ]
+    },
+    {
+      "frame_index": 28,
+      "start": 13.44,
+      "end": 14.4,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.583
+        }
+      ]
+    },
+    {
+      "frame_index": 29,
+      "start": 13.92,
+      "end": 14.88,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.492
+        }
+      ]
+    },
+    {
+      "frame_index": 31,
+      "start": 14.88,
+      "end": 15.84,
+      "labels": [
+        {
+          "label": "dog",
+          "confidence": 0.715
+        }
+      ]
+    },
+    {
+      "frame_index": 34,
+      "start": 16.32,
+      "end": 17.28,
+      "labels": [
+        {
+          "label": "engine",
+          "confidence": 0.307
+        }
+      ]
+    },
+    {
+      "frame_index": 36,
+      "start": 17.28,
+      "end": 18.24,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.33
+        }
+      ]
+    }
+  ]
+}

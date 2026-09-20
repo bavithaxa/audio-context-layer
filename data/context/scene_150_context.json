@@ -1,0 +1,147 @@
+{
+  "audio": {
+    "file": "scene_150.wav",
+    "duration": 28.0,
+    "sample_rate": 16000
+  },
+  "model": {
+    "name": "YAMNet",
+    "threshold": 0.3,
+    "min_event_duration": 0.4,
+    "max_gap": 1.5,
+    "frame_duration": 0.96,
+    "frame_hop": 0.48
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "label": "clock_tick",
+      "start": 4.32,
+      "end": 5.76,
+      "duration": 1.44,
+      "confidence": 0.767,
+      "source_frames": [
+        9,
+        10
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "label": "chirping_birds",
+      "start": 8.16,
+      "end": 9.12,
+      "duration": 0.96,
+      "confidence": 0.38,
+      "source_frames": [
+        17
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "label": "footsteps",
+      "start": 11.52,
+      "end": 12.96,
+      "duration": 1.44,
+      "confidence": 0.473,
+      "source_frames": [
+        24,
+        25
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "label": "door_wood_knock",
+      "start": 23.04,
+      "end": 26.4,
+      "duration": 3.36,
+      "confidence": 0.485,
+      "source_frames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 9,
+      "start": 4.32,
+      "end": 5.28,
+      "labels": [
+        {
+          "label": "clock_tick",
+          "confidence": 0.767
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "start": 4.8,
+      "end": 5.76,
+      "labels": [
+        {
+          "label": "clock_tick",
+          "confidence": 0.517
+        }
+      ]
+    },
+    {
+      "frame_index": 17,
+      "start": 8.16,
+      "end": 9.12,
+      "labels": [
+        {
+          "label": "chirping_birds",
+          "confidence": 0.38
+        }
+      ]
+    },
+    {
+      "frame_index": 24,
+      "start": 11.52,
+      "end": 12.48,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.363
+        }
+      ]
+    },
+    {
+      "frame_index": 25,
+      "start": 12.0,
+      "end": 12.96,
+      "labels": [
+        {
+          "label": "footsteps",
+          "confidence": 0.473
+        }
+      ]
+    },
+    {
+      "frame_index": 48,
+      "start": 23.04,
+      "end": 24.0,
+      "labels": [
+        {
+          "label": "door_wood_knock",
+          "confidence": 0.446
+        }
+      ]
+    },
+    {
+      "frame_index": 53,
+      "start": 25.44,
+      "end": 26.4,
+      "labels": [
+        {
+          "label": "door_wood_knock",
+          "confidence": 0.485
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "model": "PANNs CNN14",
+  "checkpoint": "Cnn14_mAP=0.431.pth",
+  "split": "test",
+  "num_test_windows": 248,
+  "input_window_seconds": 5.0,
+  "threshold": 0.3,
+  "micro_precision": 0.7839195979899497,
+  "micro_recall": 0.3482142857142857,
+  "micro_f1": 0.482225656877898,
+  "macro_precision": 0.6915769230769231,
+  "macro_recall": 0.35968035130221276,
+  "macro_f1": 0.43110131348251723,
+  "label_mapping": {
+    "car_horn": [
+      "Honk"
+    ],
+    "chirping_birds": [
+      "Chirp, tweet",
+      "Bird",
+      "Bird vocalization, bird call, bird song"
+    ],
+    "clock_tick": [
+      "Tick",
+      "Tick-tock",
+      "Clock"
+    ],
+    "cow": [
+      "Moo"
+    ],
+    "crow": [
+      "Crow",
+      "Caw"
+    ],
+    "dog": [
+      "Dog",
+      "Bark",
+      "Bow-wow",
+      "Whimper (dog)",
+      "Yip"
+    ],
+    "door_wood_knock": [
+      "Knock",
+      "Door",
+      "Wood"
+    ],
+    "engine": [
+      "Engine",
+      "Idling",
+      "Vehicle"
+    ],
+    "footsteps": [
+      "Walk, footsteps"
+    ],
+    "hen": [
+      "Chicken, rooster",
+      "Cluck"
+    ],
+    "keyboard_typing": [
+      "Typing",
+      "Computer keyboard"
+    ],
+    "laughing": [
+      "Laughter"
+    ],
+    "mouse_click": [],
+    "rain": [
+      "Rain",
+      "Raindrop"
+    ],
+    "rooster": [
+      "Chicken, rooster"
+    ],
+    "sheep": [
+      "Sheep",
+      "Bleat"
+    ],
+    "siren": [
+      "Siren"
+    ],
+    "thunderstorm": [
+      "Thunderstorm",
+      "Thunder"
+    ],
+    "water_drops": [
+      "Drip",
+      "Raindrop",
+      "Water"
+    ],
+    "wind": [
+      "Wind"
+    ]
+  }
+}
